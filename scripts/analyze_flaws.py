@@ -6,7 +6,7 @@ cloudTrail 데이터셋의 권한 및 세션 관련 구조를 분석하는 스�
 파일 인자가 없을 경우, 현재 작업폴더 아래 모든 json 파일을 탐색합니다.
 
 상세 사용법:
-docs/datasets/flaws-cloudtrail.md
+docs/datasets/flaws_cloudtrail.md
 """
 import json, sys, os, glob
 from collections import Counter

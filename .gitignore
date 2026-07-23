@@ -1,3 +1,6 @@
 # flaws.cloud 
 data/archives/flaws_cloudtrail_logs/flaws_cloudtrail*
 data/raw/flaws_cloudtrail_logs/flaws_cloudtrail*
+
+# infra
+infra/

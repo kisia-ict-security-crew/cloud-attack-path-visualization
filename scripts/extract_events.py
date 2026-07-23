@@ -3,7 +3,7 @@
 CloudTrail 로그에서 지정된 조건에 일치하는 이벤트를 추출하는 스크립트입니다.  
 
 상세 사용법:
-docs/datasets/flaws-cloudtrail.md
+docs/datasets/flaws_cloudtrail.md
 """
 import json, argparse, glob, os
 
