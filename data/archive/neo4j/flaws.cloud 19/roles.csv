@@ -1,0 +1,7 @@
+id,roleName
+arn:aws:iam::811596193553:role/flaws,flaws
+arn:aws:iam::811596193553:role/service-role/config-role-us-west-2,config-role-us-west-2
+arn:aws:iam::811596193553:role/aws-service-role/config-multiaccountsetup.amazonaws.com/AWSServiceRoleForConfigMultiAccountSetup,AWSServiceRoleForConfigMultiAccountSetup
+arn:aws:iam::811596193553:role/service-role/Level6,Level6
+arn:aws:iam::811596193553:role/aws:ec2-instance,aws:ec2-instance
+arn:aws:iam::811596193553:role/tests3access,tests3access
