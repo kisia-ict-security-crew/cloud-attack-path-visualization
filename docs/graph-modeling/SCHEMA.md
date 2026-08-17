@@ -1,17 +1,28 @@
 # 그래프 스키마 정의 — 사후조사용 성공 기반 도달성 그래프
 
-CloudTrail 로그를 그래프로 변환해 공격 경로(credential chaining, 권한상승, 정보 유출)를
-사후조사(post-incident forensics) 관점에서 재구성하기 위한 Neo4j 스키마 정의.
+CloudTrail 로그를 그래프로 변환해 공격 경로를 사후조사 관점에서 재구성하기 위한 Neo4j 스키마 정의.
 
 ## 설계 원칙
 
-1. **Credential 단일 주체** — 모든 실행은 장기/단기 관계없이 자격증명으로 이뤄지므로, 행위 주체를 `Credential` 하나로 통합한다.
-2. **실행자(사람/서비스)의 이원 배치** — "누구인가"의 안정적 부분(arn 등)은 `Credential` 노드 속성으로, "어디서/무엇으로"의 사건별 부분(sourceIP, userAgent)은 엣지 속성으로 둔다.
-3. **성공 기반(success-only)** — 성공한 사건만 그래프에 넣는다. 모든 엣지가 "실제로 성공한 도달"이므로 순회 시 별도 필터 술어가 필요 없다. (실패 사건은 이후 `outcome` 컬럼 부활 + `ATTEMPTED_*` 관계로 확장 예정)
-4. **읽기/쓰기 분리** — 정보 조회(READ)와 실제 변경(MODIFIED)을 관계 타입으로 분리해 "정보 유출 범위"와 "실제 피해 범위"를 구분한다.
-5. **일반성** — `Credential → Role → Resource` 구조는 특정 로그가 아닌 IAM 시스템의 보편 구조를 따른다.
+1. Credential 단일 주체 — 모든 실행은 장기/단기 관계없이 자격증명으로 이뤄지므로, 행위 주체를 Credential 하나로 통합한다.
+2. 실행자의 이원 배치 — "누구인가"의 안정적 부분(arn 등)은 `Credential` 노드 속성으로, "어디서/무엇으로"의 사건별 부분(sourceIP, userAgent)은 엣지 속성으로 둔다.
+3. 성공 기반 — 성공한 사건만 그래프에 넣는다. 모든 엣지가 "실제로 성공한 도달"이다.
+4. 읽기/쓰기 분리 — 정보 조회(READ)와 실제 변경(MODIFIED)을 관계 타입으로 분리해 "정보 유출 범위"와 "실제 피해 범위"를 구분한다.
 
 ---
+
+## 추가로 적용해야하는 핵심 내용
+1. 권한 이동 또는 상승 체인에 맥락 부여
+2. IMDS 연결. (예를 들면 [사용자] - runinstance - [리소스] - (IMDS 다리) - [세션] 이런 형태에서 [IMDS 다리] 는 로그에 없을 수 있음)
+
+
+## 후속 연구
+
+1. 실패한 로그를 포함한 개별 모델링 제작하여 공격 시도 분석 가능하도록
+2. 권한 정적 분석 내용과 병합하여 도달 가능한 곳 + 실제로 도달한 곳 같이 분석
+3. 대용량 로그 처리를 위한 모델링 경량화 
+4. 로그 -> db 로 정규화
+
 
 ## 노드 (4개 CSV 파일)
 
@@ -23,7 +34,7 @@ CloudTrail 로그를 그래프로 변환해 공격 경로(credential chaining, �
 |------|------|:--:|------|-----------|
 | `id` | string | O | accessKeyId. 없으면 `svc:<서비스>` 또는 `arn:<arn>` | 노드 식별·병합의 근간. 모든 엣지의 매칭 키 |
 | `kind` | enum | | `LongTermKey`(AKIA) / `TempKey`(ASIA) / `AWSService` | 장기키(지속 위협) vs 세션(한정) 구분. 유출 위험도가 다름 |
-| `arn` | string | | 자격증명의 소유 신원 ARN | "누가 실행했나". 같은 신원의 여러 키를 arn으로 묶어 질의 |
+| `arn` | string | | 자격증명의 소유 신원 ARN(useridentity.arn) | "누가 실행했나". 같은 신원의 여러 키를 arn으로 묶어 질의 |
 | `accountId` | string | | AWS 계정 번호 | 다계정 환경에서 경계 식별. 로그 종류 비종속(일반성) |
 | `userName` | string | | IAM 사용자/역할명 | 결과 판독용. arn에서 파생 |
 | `identityType` | enum | | IAMUser / AssumedRole / AWSService / Root 등 | 주체 유형별 필터. 일반 IAM 모델 호환 |
@@ -193,7 +204,7 @@ MATCH path = (d:DataResource {id:'<유출 데이터>'})
 RETURN origin, path
 ```
 
-성공 기반이므로 경로 상 모든 엣지가 "실제 성공한 도달"이며, `all(r IN rels WHERE r.outcome='SUCCESS')` 같은 필터 술어가 필요 없다.
+성공 기반이므로 경로 상 모든 엣지가 "실제 성공한 도달"이다.
 
 ---
 
