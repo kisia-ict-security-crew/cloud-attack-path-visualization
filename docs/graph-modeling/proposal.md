@@ -9,7 +9,7 @@ CloudTrail 로그를 그래프로 변환해 공격 경로를 사후조사 관점
 3. 성공 기반 — 성공한 사건만 그래프에 넣는다. 모든 엣지가 "실제로 성공한 도달"이다.
 4. 읽기/쓰기 분리 — 정보 조회(READ)와 실제 변경(MODIFIED)을 관계 타입으로 분리해 "정보 유출 범위"와 "실제 피해 범위"를 구분한다.
 
----
+
 
 ## 추가로 적용해야하는 핵심 내용
 1. 권한 이동 또는 상승 체인에 맥락 부여
@@ -21,8 +21,9 @@ CloudTrail 로그를 그래프로 변환해 공격 경로를 사후조사 관점
 1. 실패한 로그를 포함한 개별 모델링 제작하여 공격 시도 분석 가능하도록
 2. 권한 정적 분석 내용과 병합하여 도달 가능한 곳 + 실제로 도달한 곳 같이 분석
 3. 대용량 로그 처리를 위한 모델링 경량화 
-4. 로그 -> db 로 정규화
+4. 로그 -> db 로 정규화. 로그 형식이 다 달라서 예외사항을 처리해야함. 예를 들면 accesskeyID가 없는 경우는 어떻게 처리?
 
+---
 
 ## 노드 (4개 CSV 파일)
 
@@ -32,18 +33,28 @@ CloudTrail 로그를 그래프로 변환해 공격 경로를 사후조사 관점
 
 | 컬럼 | 타입 | PK | 의미 | 필요 이유 |
 |------|------|:--:|------|-----------|
-| `id` | string | O | accessKeyId. 없으면 `svc:<서비스>` 또는 `arn:<arn>` | 노드 식별·병합의 근간. 모든 엣지의 매칭 키 |
+| `id` | string | O | accessKeyId. 없으면 `svc:<서비스>` 또는 `arn:<arn>` | 노드 식별·병합의 근간. 모든 엣지의 매칭 키  |
 | `kind` | enum | | `LongTermKey`(AKIA) / `TempKey`(ASIA) / `AWSService` | 장기키(지속 위협) vs 세션(한정) 구분. 유출 위험도가 다름 |
-| `arn` | string | | 자격증명의 소유 신원 ARN(useridentity.arn) | "누가 실행했나". 같은 신원의 여러 키를 arn으로 묶어 질의 |
-| `accountId` | string | | AWS 계정 번호 | 다계정 환경에서 경계 식별. 로그 종류 비종속(일반성) |
-| `userName` | string | | IAM 사용자/역할명 | 결과 판독용. arn에서 파생 |
+| `arn` | string | | 자격증명의 소유 신원 ARN(useridentity.arn) | "누가 실행했나". 같은 신원의 여러 키를 arn으로 묶어 질의.  |
+| `accountId` | string | | AWS 계정 번호 | 다계정 환경에서 경계 식별. *호출한 계정/명령이 수행되는 계정 구분해야함* |
 | `identityType` | enum | | IAMUser / AssumedRole / AWSService / Root 등 | 주체 유형별 필터. 일반 IAM 모델 호환 |
 
 **헤더**
 
 ```csv
-id,kind,arn,accountId,userName,identityType
+id,kind,arn,accountId,identityType
 ```
+
+**정규화 방법**
+id : accesskeyID. 없는 경우는 아래에서 다룸
+kind : ASIA, AKIA로 구분
+arn : useridentity.arn. 없는 경우 아래에서 다룸
+accountID : 사용자의 계정 ID인지 아니면 호출된 대상의 계정 ID인지 정해야함
+identityType : userIdentity.type 
+
+
+**accesskeyID나 arn이 없는 경우**
+
 
 ---
 
@@ -62,6 +73,18 @@ IAM role. credential chaining의 중심 관절.
 ```csv
 id,roleName,accountId
 ```
+
+**정규화 방법**
+
+로그 형태에 따라 다르다.
+AssumeRole 이벤트에서는 requestparameter에 담긴다.
+AssumedRole은 SessionContext에 담긴다.
+Role이 객체로 동작하는 event는 resources/requestParameters에 담겨있다.
+
+상황 A: AssumeRole 이벤트가 로그에 있다
+상황 B: AssumeRole 이벤트는 없지만, 그 세션이 활동한다
+상황 C: role이 IAM 조작의 대상으로만 등장 (GetRole, AttachRolePolicy 등)
+   문제: 같은 role/flaws가 상황 B에선 Role 노드(주체 허브)이고, 상황 C에선 조작 대상(PermissionTarget)
 
 ---
 
@@ -82,6 +105,14 @@ id,roleName,accountId
 ```csv
 id,resType,name
 ```
+
+**정규화 방법**
+로그 내의 정보의 한계로 완전 정규화는 불가능(계정이나 리전이 로그에 없고 이름만 있는 경우가 있음. 다른 계정의 같은 이름과 구분 불가능)
+후보 1: arn을 사용
+후보 2: arn 이 없다면 service:name 형태로 합성해서 사용
+
+
+**이 resource가 자격을 받아 동작을 수행하는 경우(IMDS 다리)**
 
 ---
 
