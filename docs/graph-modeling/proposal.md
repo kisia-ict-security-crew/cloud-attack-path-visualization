@@ -4,24 +4,25 @@ CloudTrail 로그를 그래프로 변환해 공격 경로를 사후조사 관점
 
 ## 설계 원칙
 
-1. Credential 단일 주체 — 모든 실행은 장기/단기 관계없이 자격증명으로 이뤄지므로, 행위 주체를 Credential 하나로 통합한다.\
-2. 실행자의 이원 배치 — "누구인가"의 안정적 부분(arn 등)은 `Credential` 노드 속성으로, "어디서/무엇으로"의 사건별 부분(sourceIP, userAgent)은 엣지 속성으로 둔다.\
-3. 성공 기반 — 성공한 사건만 그래프에 넣는다. 모든 엣지가 "실제로 성공한 도달"이다.\
+1. Credential 단일 주체 — 모든 실행은 장기/단기 관계없이 자격증명으로 이뤄지므로, 행위 주체를 Credential 하나로 통합한다.  
+2. 실행자의 이원 배치 — "누구인가"의 안정적 부분(arn 등)은 `Credential` 노드 속성으로, "어디서/무엇으로"의 사건별 부분(sourceIP, userAgent)은 엣지 속성으로 둔다.  
+3. 성공 기반 — 성공한 사건만 그래프에 넣는다. 모든 엣지가 "실제로 성공한 도달"이다.  
 4. 읽기/쓰기 분리 — 정보 조회(READ)와 실제 변경(MODIFIED)을 관계 타입으로 분리해 "정보 유출 범위"와 "실제 피해 범위"를 구분한다.
 
 
 
 ## 추가로 적용해야하는 핵심 내용
 
-1. 권한 이동 또는 상승 체인에 맥락 부여\
-2. IMDS 연결. (예를 들면 [사용자] - runinstance - [리소스] - (IMDS 다리) - [세션] 이런 형태에서 [IMDS 다리] 는 로그에 없을 수 있음)\
+1. 권한 이동 또는 상승 체인에 맥락 부여  
+2. IMDS 연결. (예를 들면 [사용자] - runinstance - [리소스] - (IMDS 다리) - [세션] 이런 형태에서 [IMDS 다리] 는 로그에 없을 수 있음)
+3. data resource가 권한 관련 내용인 경우 
 
 
 ## 후속 연구
 
-1. 실패한 로그를 포함한 개별 모델링 제작하여 공격 시도 분석 가능하도록\
-2. 권한 정적 분석 내용과 병합하여 도달 가능한 곳 + 실제로 도달한 곳 같이 분석\
-3. 대용량 로그 처리를 위한 모델링 경량화 \
+1. 실패한 로그를 포함한 개별 모델링 제작하여 공격 시도 분석 가능하도록  
+2. 권한 정적 분석 내용과 병합하여 도달 가능한 곳 + 실제로 도달한 곳 같이 분석  
+3. 대용량 로그 처리를 위한 모델링 경량화   
 4. 로그 -> db 로 정규화. 로그 형식이 다 달라서 예외사항을 처리해야함. 예를 들면 accesskeyID가 없는 경우는 어떻게 처리?
 
 ---
@@ -48,11 +49,11 @@ id,kind,arn,accountId,identityType
 
 **정규화 방법**
 
-id : accesskeyID. 없는 경우는 아래에서 다룸\
-kind : ASIA, AKIA로 구분\
-arn : useridentity.arn. 없는 경우 아래에서 다룸\
-accountID : 사용자의 계정 ID인지 아니면 호출된 대상의 계정 ID인지 정해야함\
-identityType : userIdentity.type \
+id : accesskeyID. 없는 경우는 아래에서 다룸  
+kind : ASIA, AKIA로 구분  
+arn : useridentity.arn. 없는 경우 아래에서 다룸  
+accountID : 사용자의 계정 ID인지 아니면 호출된 대상의 계정 ID인지 정해야함  
+identityType : userIdentity.type   
 
 
 **accesskeyID나 arn이 없는 경우**
@@ -83,9 +84,9 @@ AssumeRole 이벤트에서는 requestparameter에 담긴다.
 AssumedRole은 SessionContext에 담긴다.
 Role이 객체로 동작하는 event는 resources/requestParameters에 담겨있다.
 
-상황 A: AssumeRole 이벤트가 로그에 있다
-상황 B: AssumeRole 이벤트는 없지만, 그 세션이 활동한다
-상황 C: role이 IAM 조작의 대상으로만 등장 (GetRole, AttachRolePolicy 등)
+상황 A: AssumeRole 이벤트가 로그에 있다  
+상황 B: AssumeRole 이벤트는 없지만, 그 세션이 활동한다  
+상황 C: role이 IAM 조작의 대상으로만 등장 (GetRole, AttachRolePolicy 등)  
    문제: 같은 role/flaws가 상황 B에선 Role 노드(주체 허브)이고, 상황 C에선 조작 대상(PermissionTarget)
 
 ---
@@ -109,32 +110,16 @@ id,resType,name
 ```
 
 **정규화 방법**
-로그 내의 정보의 한계로 완전 정규화는 불가능(계정이나 리전이 로그에 없고 이름만 있는 경우가 있음. 다른 계정의 같은 이름과 구분 불가능)
-후보 1: arn을 사용
-후보 2: arn 이 없다면 service:name 형태로 합성해서 사용
+
+로그 내의 정보의 한계로 완전 정규화는 불가능(계정이나 리전이 로그에 없고 이름만 있는 경우가 있음. 다른 계정의 같은 이름과 구분 불가능)  
+후보 1: arn을 사용  
+후보 2: arn 이 없다면 service:name 형태로 합성해서 사용  
+
+arn은 requestParameters, responseElements, resources 에 담겨있다.
 
 
 **이 resource가 자격을 받아 동작을 수행하는 경우(IMDS 다리)**
 
----
-
-### 4. `permission_targets.csv` — 권한 조작 대상
-
-권한 변경/조회의 대상(IAM user/role/policy 등). 기존 `resources.csv` 중 IAM성 + 성공 접근분만.
-
-| 컬럼 | 타입 | PK | 의미 | 필요 이유 |
-|------|------|:--:|------|-----------|
-| `id` | string | O | `<필드>:<값>` (예: `userName:Level6`, `roleName:flaws`) | 권한 대상 식별 |
-| `resType` | enum | | userName / roleName / policyName / instanceProfile 등 | 조작 대상 유형 |
-| `name` | string | | 실제 값 | 판독 |
-
-**DataResource와 분리하는 이유**: 실제 권한 변경(`AttachRolePolicy`, `DeleteRole` 등)의 대상과 정보 유출 대상(bucket/object)은 사후조사 심각도가 다르다. 라벨로 분리하면 "권한이 조작된 지점"만 별도 질의할 수 있다.
-
-**헤더**
-
-```csv
-id,resType,name
-```
 
 ---
 
@@ -180,6 +165,9 @@ id,resType,name
 src,src_label,rel,dst,dst_label,eventName,eventTime,sourceIP,userAgent,issuedAt
 ```
 
+**정규화 방법**  
+아직
+
 ---
 
 ## 파일 목록 요약 (기존 6개 → 5개)
@@ -189,7 +177,6 @@ src,src_label,rel,dst,dst_label,eventName,eventTime,sourceIP,userAgent,issuedAt
 | `credentials.csv` | 노드 | `principals.csv` + `sessions.csv` **통합** |
 | `roles.csv` | 노드 | 유지 (`accountId` 추가) |
 | `data_resources.csv` | 노드 | `resources.csv`에서 **데이터성·성공분만** 분리 |
-| `permission_targets.csv` | 노드 | `resources.csv`에서 **IAM성·성공분만** 분리 |
 | `edges.csv` | 엣지 | `outcome` 제거, `userAgent` 추가, `rel` 6종 재편, `SAME_CREDENTIAL` 제거 |
 
 제거된 것: `sessions.csv`(credentials로 흡수), `services.csv`(ENUMERATED 대상으로 축소), `SAME_CREDENTIAL` 관계(Credential 통합으로 불필요).
