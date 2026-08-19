@@ -131,6 +131,7 @@ python scripts/analyze_flaws.py \
 | `--end`    | `eventTime`                                          | 추출 종료 시간                  |
 | `--files`  | 입력 파일 경로                                             | 분석할 JSON 파일               |
 | `--out`    | 출력 파일 경로                                             | 추출 결과를 저장할 파일             |
+| `--ip`     | sourceIPAddress                                            | 요청 발신 IP       |
 
 `--out`은 필수 옵션입니다.  
 

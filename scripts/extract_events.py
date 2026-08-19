@@ -5,6 +5,8 @@ CloudTrail 로그에서 지정된 조건에 일치하는 이벤트를 추출하�
 상세 사용법:
 docs/datasets/flaws_cloudtrail.md
 """
+# -*- coding: utf-8 -*-
+
 import json, argparse, glob, os
 
 def get(r, *path):
@@ -20,6 +22,7 @@ def main():
     ap.add_argument('--type', nargs='+', help='userIdentity.type')
     ap.add_argument('--key',  nargs='+', help='userIdentity.accessKeyId')
     ap.add_argument('--issuer', nargs='+', help='sessionIssuer.userName (권한출처 Role)')
+    ap.add_argument('--ip', nargs='+', help='sourceIPAddress (여러 개 가능)')
     ap.add_argument('--start', help='eventTime 시작 (예: 2017-02-19T20:00)')
     ap.add_argument('--end',   help='eventTime 끝')
     ap.add_argument('--files', nargs='+', help='대상 파일 (기본: 현재 폴더 이하 모든 .json)')
@@ -34,6 +37,7 @@ def main():
         if args.type and get(r,'userIdentity','type') not in args.type: return False
         if args.key  and get(r,'userIdentity','accessKeyId') not in args.key: return False
         if args.issuer and get(r,'userIdentity','sessionContext','sessionIssuer','userName') not in args.issuer: return False
+        if args.ip and get(r,'sourceIPAddress') not in args.ip: return False
         et = get(r,'eventTime') or ''
         if args.start and et < args.start: return False
         if args.end and et > args.end: return False
