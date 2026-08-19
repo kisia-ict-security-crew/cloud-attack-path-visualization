@@ -44,7 +44,7 @@ SecurityContext ──READS──-> Secret
 
 (원본 API 이름과 Event ID는 관계에 저장하여 실제 CloudTrail 로그까지 역추적할 수 있도록 구성해야한다)
 
----
+<br>
 
 ## 2. 정규화 CSV 구조
 
@@ -82,7 +82,8 @@ type의 경우에는 대표 type이 존재 (사람 서비스 루트 등을 구�
 
 `AssumedRole`은 Role 자체가 아니라 특정 시점에 해당 Role 권한을 사용하는 실행 상태이므로 Identity가 아닌 `SecurityContext`로 분리한다
 
----
+<br>
+
 
 ### `credentials.csv`
 
@@ -113,7 +114,8 @@ Alice
 AccessKey
 ```
 
----
+<br>
+
 
 ### `security_contexts.csv`
 
@@ -162,7 +164,8 @@ AdminSession
 LambdaContext
 ```
 
----
+<br>
+
 
 ### `workloads.csv`
 
@@ -194,7 +197,8 @@ Lambda Execution Role = Identity
 Lambda 실행 권한       = SecurityContext
 ```
 
----
+<br>
+
 
 ### `resources.csv`
 
@@ -219,7 +223,8 @@ KMS Key         → KEY
 DynamoDB        → DATABASE
 ```
 
----
+<br>
+
 
 ### `relationships.csv`
 
@@ -254,7 +259,8 @@ GetItem
 
 **원본 API 이름은 `event_name`에 유지해야함
 
----
+<br>
+
 
 ## 3. 관계 정의 및 공격 흐름
 
@@ -297,7 +303,8 @@ SecurityContext
 Resource
 ```
 
----
+<br>
+
 
 ### AssumeRole
 
@@ -315,7 +322,8 @@ AdminSession
 
 이를 통해 `AdminSession`에서 발생한 API 요청도 최초 `AliceContext`까지 역추적할 수 있다
 
----
+<br>
+
 
 ### Role Chaining
 
@@ -333,7 +341,8 @@ SessionB
 
 `parent_context_id`와 `DERIVES_CONTEXT`를 통해 여러 단계의 Role 전환도 하나의 경로로 유지한다.
 
----
+<br>
+
 
 ### Lambda를 이용한 이동
 
@@ -369,7 +378,8 @@ Alice
 
 이렇게 실제 권한 전환 과정을 시각화할 수 있게 됨
 
----
+<br>
+
 
 ## 4. 기존 구조와의 차이?
 
@@ -401,7 +411,8 @@ Secret
 
 정규화에서는 정보 손실을 최소화하고, 시각화에서는 목적에 맞게 축약하는 방식으로 구성는 것이 목적이다.
 
----
+<br>
+
 
 ## 5. 최종 결과
 
