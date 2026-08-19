@@ -4,3 +4,10 @@ data/raw/flaws_cloudtrail_logs/flaws_cloudtrail*
 
 # infra
 infra/
+
+# temp
+temp
+
+# venv
+.venv
+venv
