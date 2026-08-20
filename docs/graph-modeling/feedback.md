@@ -2,22 +2,12 @@
 
 세 팀원이 각자 제안한 그래프 모델링을 비교하고, 회의에서 합의해야 할 쟁점을 정리한 문서.
 
-## 1. 세 모델 요약
-
-| 구분 | 모델 A (도달성) | 모델 B (위험 분류) | 모델 C (권한 전환) |
-|------|----------------|--------------------|--------------------|
-| 핵심 철학 | 성공 기반 도달성 순회 | 엣지에 위험도 태깅 | 권한 전환 과정 정밀 복원 |
-| 주체 모델 | Credential 통합 (1층) | User/Role 신원 | Identity + Credential + SecurityContext (3층) |
-| 엣지 분류 | 구조/정보이동 (READ/MODIFY/ASSUME) | 보안 위험도 (PRIVESC/CRED_ACCESS 등) | 보안 의미 정규화 (READS/WRITES/ASSUMES 등) |
-| 성공/실패 | 성공만 | 전부 | 전부 (outcome 컬럼만 존재) |
-| Workload(Lambda/EC2) | Resource로 취급 | 없음 | **1급 노드로 분리** |
-| 위험도/MITRE | 없음 | **위험 카테고리 있음** | 없음 |
 
 ---
 
-## 2. 모델별 장단점
+## 1. 모델별 장단점
 
-### 모델 A — 성공 기반 도달성
+### 정준식 모델링
 
 **장점**
 - 순방향/역방향 경로 순회가 가능해 "공격 경로 재구성"에 직접 부합
@@ -29,7 +19,10 @@
 - Lambda 등 Workload를 통한 권한 상승 경로를 표현 못 함
 - Credential 통합으로 "발급 시점 vs 사용 시점"의 원본 충실성 일부 희생
 
-### 모델 B — 위험 분류
+**추출 요소**
+성공만 필터링 하는 것. 실패 로그도 따로 처리해야할 듯 하다. 단순한 구조
+
+### 강인석 모델링 
 
 **장점**
 - 위험 온톨로지 보유 (LOG_TAMPERING, PRIVILEGE_ESCALATION, CREDENTIAL_ACCESS 등)
@@ -41,31 +34,26 @@
 - 성공/실패 미구분 — 노이즈 처리를 다음 단계로 미룸
 - 위험 카테고리의 근거(표준 기반인지 임의인지)가 불명확 → MITRE로 정당화 필요
 
-### 모델 C — 권한 전환 (SecurityContext)
+
+**추출 요소**
+MITRE ATTACK 분류를 이용한 엣지에 맥락 부여.  
+공식 자료를 활용함으로 정당성 부여할 수 있음. 하지만 MITRE ATTACK은 행위 분류지 관계 분류가 아님. 그래서 이 분류를 노드간의 관계로 볼지 아니면 엣지의 속성으로만 부여할지 얘기해 봐야할 듯 함.
+
+### 서장훈 모델링 
 
 **장점**
-- Workload(Lambda/EC2)를 1급 노드로 분리 — Lambda를 통한 권한 획득 경로 표현 가능 (세 모델 중 유일)
+- Workload(Lambda/EC2)를 1급 노드로 분리 — Lambda를 통한 권한 획득 경로 표현 가능
 - SecurityContext 분리로 "AssumedRole = 실행 상태"를 개념적으로 정확히 표현
-- parent_context_id / source_identity로 다단계 Role Chaining의 최초 행위자 역추적이 명시적
+- parent_context_id / source_identity로 다단계 Role Chaining의 최초 행위자 역추적
 
 **단점**
 - 복잡도 폭발 — API 호출 1건이 노드 4개 + 엣지 4개로 확장
 - **구현 가능성 미검증** — SecurityContext 복원, parent_context 연결이 실제 로그로 되는지 확인 안 됨
-- 성공/실패 필터, 노이즈 처리, 위험/MITRE 분류가 모두 빠짐
+- 성공/실패 필터, 노이즈 처리
 
----
-
-## 3. 세 모델의 상호 보완 관계
-
-세 모델은 경쟁이 아니라 서로 다른 축을 담당한다.
-
-- **모델 A = 실전성** (구현 가능, 노이즈 해결, 순회 가능)
-- **모델 B = 의미** (위험 분류)
-- **모델 C = 정밀성** (권한 전환, Workload)
-
-어느 하나도 단독으로 완전하지 않으며, 병합 시 시너지가 있다.
-핵심 명제: "위험한 행위를 찾는 것(B)"과 "경로를 잇는 것(A)"에 "권한 전환의 정밀함(C)"을 더하면,
-**위험한 행위들이 연결된 실제 공격 경로**를 재구성할 수 있다.
+**추출 요소**
+workload를 개별 노드로 정의한 것. 
+parent_context_id / source_identity 로 역추적성 부여
 
 ---
 
@@ -79,7 +67,7 @@
 
 ### 쟁점 2 — Workload 노드를 도입할 것인가
 - 모델 C의 최대 기여. Lambda/EC2를 통한 권한 상승 경로 표현에 필요
-- 이견이 적은 사안 — **도입에 무게**. INVOKES / RUNS_AS / SPAWNS_CONTEXT 관계 포함 여부 결정
+- 꼭 들어가면 좋을 듯하다.
 
 ### 쟁점 3 — 위험도/MITRE를 엣지 타입으로 둘 것인가, 속성으로 둘 것인가
 - eventName ↔ MITRE Tactic은 N:N (예: AssumeRole = Credential Access + Privilege Escalation)
