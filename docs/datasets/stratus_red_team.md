@@ -69,7 +69,7 @@ stratus version
 ```bash
 # Stratus는 환경 변수로 프로파일과 리전을 읽는다
 export AWS_PROFILE=huge-simu-attack
-export AWS_REGION=eu-west-1
+export AWS_REGION=ap-northeast-2
 ```
 
 ---
