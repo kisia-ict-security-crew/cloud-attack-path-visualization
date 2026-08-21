@@ -122,7 +122,7 @@ CloudTrail 이벤트의 본질적 구조만 담음. 목적을 안 태움.
 
 이렇게 하면 csv 파일이 기존의 축약버전보다 커진다는 단점이 있지만 기본 모델링은 정보가 온전히 보존되고 목적에 맞게 사용가능하다.
 
-기본 모델링은 aws log 의 기본 토대로 엣지, 그래프를 구성한다
+기본 모델링은 aws log 의 기본 토대로 엣지, 그래프를 구성한다.  
 누가 (userIdentity) → 주체 노드  
 무엇을 (eventName, eventSource) → 엣지 + 원본 보존  
 무엇에 (requestParameters, resources[]) → 대상 노드  
