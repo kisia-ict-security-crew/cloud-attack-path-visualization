@@ -1,5 +1,7 @@
 # Stratus Red Team — AWS 공격 시뮬레이션
 
+안내 블로그 https://medium.com/@goodycyb/aws-cloud-detection-lab-1%EF%B8%8F%E2%83%A3-%EF%B8%8F-cloud-pen-testing-with-stratus-red-team-tool-69b4fab24743
+
 [Datadog Stratus Red Team](https://stratus-red-team.cloud/)은 Go로 작성된 클라우드 공격 시뮬레이션 도구다. AWS / Azure / GCP / Kubernetes 대상의 공격 기법을 CLI로 실행하며, 모든 기법은 [MITRE ATT&CK](https://attack.mitre.org/)에 매핑되어 있다. 내부적으로 Terraform으로 필요 인프라를 생성·제거한다.
 
 > ⚠️ 반드시 본인 소유의 **샌드박스(테스트) AWS 계정**에서만 실행할 것. 실제 리소스가 생성되며 비용이 발생할 수 있다.
