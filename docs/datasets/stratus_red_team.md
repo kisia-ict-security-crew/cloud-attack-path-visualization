@@ -86,6 +86,52 @@ stratus list --platform aws --mitre-attack-tactic persistence   # 특정 MITRE �
 
 > AWS만 해도 37개 이상의 기법이 있으며 Credential Access, Defense Evasion, Discovery, Execution, Privilege Escalation, Exfiltration, Impact 등의 전술을 다룬다.
 
+### list 결과
+
+| aws.credential-access.ec2-get-password-data                 | Retrieve EC2 Password Data                                       | AWS        | Credential Access    |
+| aws.credential-access.ec2-steal-instance-credentials        | Steal EC2 Instance Credentials                                   | AWS        | Credential Access    |
+| aws.credential-access.secretsmanager-batch-retrieve-secrets | Retrieve a High Number of Secrets Manager secrets (Batch)        | AWS        | Credential Access    |
+| aws.credential-access.secretsmanager-retrieve-secrets       | Retrieve a High Number of Secrets Manager secrets                | AWS        | Credential Access    |
+| aws.credential-access.ssm-retrieve-securestring-parameters  | Retrieve And Decrypt SSM Parameters                              | AWS        | Credential Access    |
+| aws.defense-evasion.cloudtrail-delete                       | Delete CloudTrail Trail                                          | AWS        | Defense Evasion      |
+| aws.defense-evasion.cloudtrail-event-selectors              | Disable CloudTrail Logging Through Event Selectors               | AWS        | Defense Evasion      |
+| aws.defense-evasion.cloudtrail-lifecycle-rule               | CloudTrail Logs Impairment Through S3 Lifecycle Rule             | AWS        | Defense Evasion      |
+| aws.defense-evasion.cloudtrail-stop                         | Stop CloudTrail Trail                                            | AWS        | Defense Evasion      |
+| aws.defense-evasion.dns-delete-logs                         | Delete DNS query logs                                            | AWS        | Defense Evasion      |
+| aws.defense-evasion.organizations-leave                     | Attempt to Leave the AWS Organization                            | AWS        | Defense Evasion      |
+| aws.defense-evasion.vpc-remove-flow-logs                    | Remove VPC Flow Logs                                             | AWS        | Defense Evasion      |
+| aws.discovery.ec2-enumerate-from-instance                   | Execute Discovery Commands on an EC2 Instance                    | AWS        | Discovery            |
+| aws.discovery.ec2-download-user-data                        | Download EC2 Instance User Data                                  | AWS        | Discovery            |
+| aws.execution.ec2-launch-unusual-instances                  | Launch Unusual EC2 instances                                     | AWS        | Execution            |
+| aws.execution.ec2-user-data                                 | Execute Commands on EC2 Instance via User Data                   | AWS        | Execution            |
+|                                                             |                                                                  |            | Privilege Escalation |
+| aws.execution.ssm-send-command                              | Usage of ssm:SendCommand on multiple instances                   | AWS        | Execution            |
+| aws.execution.ssm-start-session                             | Usage of ssm:StartSession on multiple instances                  | AWS        | Execution            |
+| aws.exfiltration.ec2-security-group-open-port-22-ingress    | Open Ingress Port 22 on a Security Group                         | AWS        | Exfiltration         |
+| aws.exfiltration.ec2-share-ami                              | Exfiltrate an AMI by Sharing It                                  | AWS        | Exfiltration         |
+| aws.exfiltration.ec2-share-ebs-snapshot                     | Exfiltrate EBS Snapshot by Sharing It                            | AWS        | Exfiltration         |
+| aws.exfiltration.rds-share-snapshot                         | Exfiltrate RDS Snapshot by Sharing                               | AWS        | Exfiltration         |
+| aws.exfiltration.s3-backdoor-bucket-policy                  | Backdoor an S3 Bucket via its Bucket Policy                      | AWS        | Exfiltration         |
+| aws.impact.s3-ransomware-batch-deletion                     | S3 Ransomware through batch file deletion                        | AWS        | Impact               |
+| aws.impact.s3-ransomware-client-side-encryption             | S3 Ransomware through client-side encryption                     | AWS        | Impact               |
+| aws.impact.s3-ransomware-individual-deletion                | S3 Ransomware through individual file deletion                   | AWS        | Impact               |
+| aws.initial-access.console-login-without-mfa                | Console Login without MFA                                        | AWS        | Initial Access       |
+| aws.lateral-movement.ec2-instance-connect                   | Usage of EC2 Instance Connect on multiple instances              | AWS        | Lateral Movement     |
+| aws.persistence.iam-backdoor-role                           | Backdoor an IAM Role                                             | AWS        | Persistence          |
+| aws.persistence.iam-backdoor-user                           | Create an Access Key on an IAM User                              | AWS        | Persistence          |
+|                                                             |                                                                  |            | Privilege Escalation |
+| aws.persistence.iam-create-admin-user                       | Create an administrative IAM User                                | AWS        | Persistence          |
+|                                                             |                                                                  |            | Privilege Escalation |
+| aws.persistence.iam-create-backdoor-role                    | Create a backdoored IAM Role                                     | AWS        | Persistence          |
+| aws.persistence.iam-create-user-login-profile               | Create a Login Profile on an IAM User                            | AWS        | Persistence          |
+|                                                             |                                                                  |            | Privilege Escalation |
+| aws.persistence.lambda-backdoor-function                    | Backdoor Lambda Function Through Resource-Based Policy           | AWS        | Persistence          |
+| aws.persistence.lambda-layer-extension                      | Add a Malicious Lambda Extension                                 | AWS        | Persistence          |
+|                                                             |                                                                  |            | Privilege Escalation |
+| aws.persistence.lambda-overwrite-code                       | Overwrite Lambda Function Code                                   | AWS        | Persistence          |
+| aws.persistence.rolesanywhere-create-trust-anchor           | Create an IAM Roles Anywhere trust anchor                        | AWS        | Persistence          |
+
+
 ### status — 각 기법의 현재 상태 확인
 
 ```bash
