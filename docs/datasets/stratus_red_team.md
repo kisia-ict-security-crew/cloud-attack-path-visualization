@@ -87,7 +87,7 @@ stratus list --platform aws --mitre-attack-tactic persistence   # 특정 MITRE �
 > AWS만 해도 37개 이상의 기법이 있으며 Credential Access, Defense Evasion, Discovery, Execution, Privilege Escalation, Exfiltration, Impact 등의 전술을 다룬다.
 
 ### list 결과
-
+| 기술 이름 | 기술 설명 | 서비스 | 분류 |
 | aws.credential-access.ec2-get-password-data                 | Retrieve EC2 Password Data                                       | AWS        | Credential Access    |
 | aws.credential-access.ec2-steal-instance-credentials        | Steal EC2 Instance Credentials                                   | AWS        | Credential Access    |
 | aws.credential-access.secretsmanager-batch-retrieve-secrets | Retrieve a High Number of Secrets Manager secrets (Batch)        | AWS        | Credential Access    |
