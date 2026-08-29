@@ -1,0 +1,1429 @@
+{
+ "Records": [
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:49:59Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896199561,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896199582,
+    "x-amz-id-2": "a3MvMXCUiVRnWG/yk/rsrDB+mUTxMy22NlfPmBNhi2Hp0tCpDYzVFie4ELTy51tjX22WVK8NXNu3Ca1FgBwZNLJ2Z+uLIssf",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "8HE9CK7HMEYHQBTK",
+   "eventID": "c6c85a08-ef22-378a-bee4-df788b75cea7",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "068a2f80-4f3e-4f29-987c-2ba3a0fc87a9",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:01Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896201897,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896201928,
+    "x-amz-id-2": "I0BsqvP4Ra4G67sDlczHyK5cN/K2jILG3+qZ52SVD2k6ExG2YNXC4LXkrTs2Jksg0tS3nNUA3F8=",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "B7WJXF8KT7SVPEJD",
+   "eventID": "c0f7e5f2-a0ee-3ede-9b57-5655bf869342",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "a3568372-0a06-4b29-b58d-e876d52c28bd",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:05Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896205150,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896205171,
+    "x-amz-id-2": "x8sDhn70hTOTdbBhTx7Grz2RaBVJ183JyVfdxAdjjxGf59uU2b3v5/jmXVCWM3q5SNITPfmreoJIS8g9OGJa3zPZ0YPJpLVp",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "Q58E4GEMEE564WVQ",
+   "eventID": "b0b47c4f-0d7a-34dd-89a6-ee576a963186",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "6b385213-0a48-485c-b68f-97b179bad272",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:06Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896206498,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896206521,
+    "x-amz-id-2": "D57FIw4RUZ5R7IKiMaFV+iLT/+3VPAEYI0HJpKT2O9JxaEI3Qub3XSVDJcSYrtV5/Bpd+jfXJv5wHm1l2CIL/1faJ8zwju16",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "9X283F2XWJS4VYQV",
+   "eventID": "ad84679e-5422-3865-a6d9-da3df6cd20c6",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "63042a13-e105-44b6-8b20-57f1bcbb8cb3",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896211393,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896211415,
+    "x-amz-id-2": "w94fw+nz5ZtsV56VIs/u0oYtolCdDKlqVwCIsE6ryYeMlWLMrJeVpD9WVnCeIw6hxHqaNs9XHboNnCISESsMwYs7ZVgxUUL4",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "T5T8NSYVMHTWCRWA",
+   "eventID": "92736e66-1d2b-34ea-b6f3-5fe81c258869",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "e5b729fa-5002-4280-8973-bcfe492bb151",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:14Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896214966,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896214990,
+    "x-amz-id-2": "EjaQCZG5SJAeHP5FhcWTmRRxcqXiNcpmW2JGJ52vWmUIHUNg1fQkQE15cNJrIvvuFGX2+mRW7ZJSebi04gjJ6X+dzUmKnebw",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "0GRCP3TZBD6NGXHY",
+   "eventID": "3a5d8f5f-802e-3578-ad81-21f6ac2ca990",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "acfd0e95-dab9-48ec-a43b-4fd44a00def0",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:17Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896217443,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896217463,
+    "x-amz-id-2": "uba+t1c6qzt5oou/xD65SpLfpi4bBF2+ecyH6pGlcfoNM74wsQCBjcyRa6mjcd9Xp4wNqIYLd8Q=",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "XDFJ5YEG23FSQ0P5",
+   "eventID": "e47b6916-0baa-3d7c-8d27-a72b2616043f",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "ce7b49b1-84e3-4eb6-ac67-6194cde72133",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:20Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896220542,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896220566,
+    "x-amz-id-2": "fbIkc2drujH+Bj+F0f4UMJzrytZEq/+8HpoHn8HJCUP7plEdPih6Z1J6sQjpavw9IoqWcUXEcqzKn9VL66PFZu54QWkTm/xu",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "XZYJCJHFV8V6RVVF",
+   "eventID": "c3e0a97f-557a-3597-acc2-34d737463d0f",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "70c2648a-8e2d-43a2-b2ee-b95afb83a7b1",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:28Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896228572,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896228593,
+    "x-amz-id-2": "c7FZdosWEQJjUG8rfSqmT24P1TapH+FAzF1oDEyF7W/TiT5/XSq7WW/dM0nzasqmnWj3zbF+RkM=",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "RCCBMCSQF60KG157",
+   "eventID": "4ef5eba1-765d-3e3b-903d-d7b4de0164df",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "a34a3fe6-4f88-450a-8549-48b57d067fe4",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:30Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896230031,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896230053,
+    "x-amz-id-2": "qeH4YpqNJEfNuqJDKNP66VvnUYJ1aROlrBTJ5oTXU5VPEFoHY4kA3PNuEyIrkacUNaghWCoMItA=",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "F6JR6DRAGV2NJZBB",
+   "eventID": "e0a8d26e-1c67-37cf-92ce-2996216297e9",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "9b327474-dbb8-43a2-95b2-486297ae2c1e",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:43Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896243222,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896243239,
+    "x-amz-id-2": "fXXA7vZCYoK/9+mEsyTQpz/zXlBogSI06hn8LYMWvblOYnmpFi+AJ2CkGaSr9RR6+93lNp8X4Y8=",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "E91VW501B403TQB1",
+   "eventID": "c3ee9721-8865-3d76-a0e7-401ad495a5d1",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "ef867455-e318-405f-bdce-3319a20f98dc",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:50:50Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787896250717,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787896250740,
+    "x-amz-id-2": "wgMnbygFhW/3rGw5ZkR4RkybchMLANbSVSTlBuDFgaAbP1RHmrHHhi759+kVXgCmxuBIiIPhrLxGNr444SpXSMecRPVAzyiu",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "TCGEA4EPVFM2F2BR",
+   "eventID": "50131cde-9c06-3c15-8b89-710f3ccaa33b",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "2e7ad876-7038-40a3-8130-3b649a076f6c",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:50:59Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeAccountAttributes",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_51bd0fff-a59b-4b4d-af41-66e0bbc5705e",
+   "requestParameters": {
+    "accountAttributeNameSet": {},
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "8352274b-c5bb-4cc0-8ebb-a567b8079a89",
+   "eventID": "baaf9bf0-3c47-4d98-9437-3a32c95f746f",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM44R2ZIWN2",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:51:09Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "076b7843-295c-47f6-bb30-bf68c0db9f62",
+   "eventID": "cc45dd73-e0f6-4be0-9b4a-5ac806f486bb",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM47PHXBAZG",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:51:11Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "c4503da5-e8f8-42f7-91b3-521683241a42",
+   "eventID": "ed434082-54d3-40f0-9285-9f5dbcfbed79",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:12Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_10065860-4dc1-413f-b4bc-1f99888cc109 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "2ebf3402-47f4-47ca-97a5-19254a75ee5e",
+   "eventID": "c7cb1be6-2473-4c16-ab9b-8cac32608e19",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:14Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_10065860-4dc1-413f-b4bc-1f99888cc109 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "60e17e95-2339-44e5-8971-3fe0a5dfadaa",
+   "eventID": "abd83db6-34d1-4af3-bd31-d3cab28a198c",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:15Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_10065860-4dc1-413f-b4bc-1f99888cc109 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "path": "/",
+    "userName": "stratus-red-team-backdoor-u-user",
+    "tags": [
+     {
+      "key": "StratusRedTeam",
+      "value": "true"
+     }
+    ]
+   },
+   "responseElements": {
+    "user": {
+     "path": "/",
+     "userName": "stratus-red-team-backdoor-u-user",
+     "userId": "AIDA52CDAKM4XOVLY7WTP",
+     "arn": "arn:aws:iam::949328302905:user/stratus-red-team-backdoor-u-user",
+     "createDate": "2026-08-28T05:51:15Z",
+     "tags": [
+      {
+       "key": "StratusRedTeam",
+       "value": "true"
+      }
+     ]
+    }
+   },
+   "requestID": "a1f450ad-9d82-4246-ba49-d867f7faf7ef",
+   "eventID": "28f3074d-47d5-4356-92dd-22d0b3f95780",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:16Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_10065860-4dc1-413f-b4bc-1f99888cc109 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "1de8ba59-06d8-45f3-b673-4b022996b437",
+   "eventID": "4ec657a6-67dc-4fd3-92a6-9beac05e8e53",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:27Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeAccountAttributes",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_ab4313c5-eed9-4b54-b50d-ae38a9ca32c8",
+   "requestParameters": {
+    "accountAttributeNameSet": {},
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "7a2ca235-b64c-4bc6-97a8-fab3d71ddbee",
+   "eventID": "437173ec-98f8-4303-884f-7d01755e7fba",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:28Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateAccessKey",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_e6f8c649-1dbe-4f08-8aa7-ca82d5f68e50",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": {
+    "accessKey": {
+     "userName": "stratus-red-team-backdoor-u-user",
+     "accessKeyId": "AKIA52CDAKM4VUKRHGUR",
+     "status": "Active",
+     "createDate": "2026-08-28T05:51:28Z"
+    }
+   },
+   "requestID": "a089bd61-92de-4890-8760-ee9a76c275dd",
+   "eventID": "40da2e01-3ba2-4469-978d-124681b83111",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:38Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "DeleteAccessKey",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_8132d3ae-c172-483e-bc20-c11349946ff1",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user",
+    "accessKeyId": "AKIA52CDAKM4VUKRHGUR"
+   },
+   "responseElements": null,
+   "requestID": "1d572369-4d65-4f5d-b09e-f85ce8805c55",
+   "eventID": "71891cd7-da05-4937-aebf-4b1bb7f9c4da",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:38Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListAccessKeys",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_8132d3ae-c172-483e-bc20-c11349946ff1",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "a5b191b5-814b-41f5-8da1-ca44629ee72b",
+   "eventID": "ddc69147-a8d4-486c-a619-e7094338d843",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:40Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "a1b76d82-031b-4e66-8432-bfa8e8341f26",
+   "eventID": "eb8b67f6-63b2-4a10-bcbe-af100087909d",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:41Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "ee26a6df-3402-4785-a803-9af1810b730d",
+   "eventID": "5195ac77-874e-4236-a4b8-ef02f9af6880",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:43Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListGroupsForUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "c9423f91-176f-46bb-8c68-2fa180b77326",
+   "eventID": "1074a1d1-cb72-423f-a85d-6eedb51d2e70",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:43Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "35b57616-e878-46cb-a912-76ff6944ccf7",
+   "eventID": "74d5414c-51fb-43b5-b7fd-cb24d34f1921",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:44Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListAccessKeys",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "e6f0b2e3-7e50-4a81-a635-3406d7297f27",
+   "eventID": "8aed5e5d-2ecc-4d65-b481-90984cd9f433",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:45Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListSSHPublicKeys",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "4d6f5ac5-5d5a-4c49-b500-fea212824fb3",
+   "eventID": "fe8d254d-9de7-4540-a85c-48737456e1d6",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:46Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListVirtualMFADevices",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "assignmentStatus": "Assigned"
+   },
+   "responseElements": null,
+   "requestID": "6bb4e3bd-5a48-4f28-87e8-ab56b15396ea",
+   "eventID": "838d8328-4bbd-4a5d-81f6-2e0157756869",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:47Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListMFADevices",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "d97607d9-41a7-4034-9806-f5ab6503a2d4",
+   "eventID": "e2e3b491-5010-4ff5-a9fa-970b338d5584",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:48Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "DeleteLoginProfile",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "errorCode": "NoSuchEntityException",
+   "errorMessage": "Login Profile for User stratus-red-team-backdoor-u-user cannot be found.",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "cb40edb7-3245-4b41-b575-5695c81f3029",
+   "eventID": "9807489b-9c13-43d4-835f-9d7461be6abd",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:49Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListSigningCertificates",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "d5e79d3e-6da4-455c-8c6c-5799a3f4361b",
+   "eventID": "c0372148-1290-4cdd-b345-c0bb24e44657",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:51:50Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "DeleteUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "userName": "stratus-red-team-backdoor-u-user"
+   },
+   "responseElements": null,
+   "requestID": "57549b1b-6e31-4647-a464-2fb531a3b397",
+   "eventID": "2424e9ed-f2e0-48b4-9638-b300fc05b521",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:52:37Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+    "roleSessionName": "resource-explorer-2"
+   },
+   "responseElements": {
+    "credentials": {
+     "accessKeyId": "ASIA52CDAKM4ZDSBLWIQ",
+     "sessionToken": "IQoJb3JpZ2luX2VjEH4aDmFwLW5vcnRoZWFzdC0yIkcwRQIhAPimwUZ7FCVYSQH8ie2BuZTSAoRDkzn2tGMet1V9HHY/AiBj4ArOio6V1wviPA7O3TKMFewTONqW0GwTV0PNSqTewCryAghHEAAaDDk0OTMyODMwMjkwNSIM++rYf6+U8n6egwVvKs8CNS7IeKgmWRsrdL4NNvHrEMM+CAer+QasBzzM0QmrYR2KuzasZfKPjqVYUxovttyKeo7B46zkR1LMU4qYoS9Amyx7UuSUt8GfTvQkGZVTJs7q8Rkwo1/ExYPBLE0VvuMveeWqV6qLAykulgzJwrmtT8fC6DPKz3rkAikrT1YAdSdmWHXHMXG8TN1ipF4LL2B8ZcMYB6nG2Gm9IG/3tYEriWhUxhBEtfRXy96CPo8TPTaS+vQVnbNNm92J6gjwUBdhRM49d6KL+F6aXaglpMnYVTcRYwFwYO9PDOyztCOwIpmdrkMjxGWc6UYeW7UC/2kLc6TX1i3Fk9k+pik+Gc1UPbccTExGREAXtF5Z++3PkUVucfp+tFHbAvtf7sL52uHpQlcMXyMuvOZVWi0otvsInbmecb18fglGJf/XN7POyXOVBBIV3Y6MszI4T7K/KHcwpcTE1AY6vQHP7TfRIhX/9QkVpz1VnGG8iPyO7DsuTpeE7J7CPJQqI1mAgM+KF8drcyMYwnNCAAA+UUd91mtCIHI3S7lNrV+PT3CmCQCpbW4fWp3ZlEpeOh1syfpwiGqiu/twfbU0z3Cnnfb6HDGxAQWpoMorPPXPjlz0+bRng4xOM3Op4G4QewAZDAKmhHJBDi8dBiiiiMn2FoyLcGx20gpp5Ej6ZokYSPBXkq0HR/ESUiJFNznqcPYwIGHsDYVNPuMqCGU=",
+     "expiration": "2026-08-28T06:52:37Z"
+    },
+    "assumedRoleUser": {
+     "assumedRoleId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+     "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+    }
+   },
+   "additionalEventData": {
+    "ExtendedRequestId": "MTphcC1ub3J0aGVhc3QtMjpTOjE3ODc4OTYzNTcwNTc6UjpKekgySDJLZA=="
+   },
+   "requestID": "30c1fad5-d97d-4ef5-9264-89dcef9225d3",
+   "eventID": "8658f902-3d91-3235-a334-0be283b8ba4b",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::IAM::Role",
+     "ARN": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "d8d150f2-9e2f-418f-94cf-85e5aeef8ead",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4ZDSBLWIQ",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:52:37Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:52:37Z",
+   "eventSource": "glue.amazonaws.com",
+   "eventName": "GetDatabases",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "requestParameters": {
+    "attributesToGet": [
+     "NAME"
+    ]
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "lakeFormationPrincipal": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+   },
+   "requestID": "bd5d7043-acaa-4eab-95fc-f4986bd0edc3",
+   "eventID": "fc4aa73c-8002-44ac-8a14-462287639a0f",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM47PHXBAZG",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:54:46Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "3cc5a4c8-9d02-42a0-89b3-35782b26f4e2",
+   "eventID": "826fe04e-2921-473a-aa3a-19ef419ad04b",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  }
+ ]
+}

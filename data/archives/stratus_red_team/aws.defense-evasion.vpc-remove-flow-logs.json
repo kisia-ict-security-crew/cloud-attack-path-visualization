@@ -1,0 +1,2544 @@
+{
+ "Records": [
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4QWGMMJDY",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:44:47Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "b66b41b7-22ae-4dad-b813-0943575f06d0",
+   "eventID": "95e4bee0-c453-4fd9-9432-da645991f24a",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:02Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeAccountAttributes",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_08d43dc5-0fb7-4be8-a79a-a14a9d90dbb7",
+   "requestParameters": {
+    "accountAttributeNameSet": {},
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "b6996867-4473-4f43-992b-9a7504831a26",
+   "eventID": "8e77265b-7a75-4e79-b9cf-40bd726fabcf",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:15Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "0853705b-09ec-4220-bdd8-533273c924b1",
+   "eventID": "ac02f2e7-2a1f-47c7-bcbd-9a24be61a033",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:16Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "1f126017-6d64-445b-b038-7ee185f98a32",
+   "eventID": "54a618f7-f97a-4066-bf92-ab0a03a8a958",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:16Z",
+   "eventSource": "logs.amazonaws.com",
+   "eventName": "ListTagsLogGroup",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "logGroupName": "/stratus-red-team/vpc-flow-logs"
+   },
+   "responseElements": null,
+   "requestID": "978b7ef3-fecc-4c7a-a18c-627f564bba63",
+   "eventID": "61d3eb96-60ee-42ce-ad91-ed1514da9875",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "apiVersion": "20140328",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "logs.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:16Z",
+   "eventSource": "logs.amazonaws.com",
+   "eventName": "DescribeLogGroups",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "logGroupNamePrefix": "/stratus-red-team/vpc-flow-logs"
+   },
+   "responseElements": null,
+   "requestID": "372d1f01-cac5-44a4-8c12-07cd19eab762",
+   "eventID": "6934cb91-6e5f-4131-9ee1-95df5e3945ad",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::Logs::LogGroup",
+     "ARN": "arn:aws:logs:ap-northeast-2:949328302905:log-group:/stratus-red-team/vpc-flow-logs"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "apiVersion": "20140328",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "logs.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:16Z",
+   "eventSource": "logs.amazonaws.com",
+   "eventName": "CreateLogGroup",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "logGroupName": "/stratus-red-team/vpc-flow-logs",
+    "tags": {
+     "StratusRedTeam": "true"
+    }
+   },
+   "responseElements": null,
+   "requestID": "4a6b2851-e39f-460c-8d17-37fdf9d9f69a",
+   "eventID": "af14a997-0018-4bf5-b7fc-b637b22a543e",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "apiVersion": "20140328",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "logs.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "accountId": "949328302905",
+    "invokedBy": "ec2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:45:16Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "CreateVpcResourceCreation",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "ec2.amazonaws.com",
+   "userAgent": "ec2.amazonaws.com",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "e41dcad9-7706-332b-89cc-03388fd57607",
+   "eventID": "baa66920-29f2-4ae7-9bd0-c23fa6cb928d",
+   "readOnly": false,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::EC2::NetworkAcl",
+     "ARN": "arn:aws:ec2:ap-northeast-2:949328302905:network-acl/acl-0ba022f7f2e44e5a3"
+    },
+    {
+     "accountId": "949328302905",
+     "type": "AWS::EC2::RouteTable",
+     "ARN": "arn:aws:ec2:ap-northeast-2:949328302905:route-table/rtb-0f0a01fbfd031329a"
+    },
+    {
+     "accountId": "949328302905",
+     "type": "AWS::EC2::SecurityGroup",
+     "ARN": "arn:aws:ec2:ap-northeast-2:949328302905:security-group/sg-023d64b225ac5acea"
+    }
+   ],
+   "eventType": "AwsServiceEvent",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "serviceEventDetails": {
+    "vpcId": "vpc-05508d763843c8960"
+   },
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeNetworkAcls",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "networkAclIdSet": {},
+    "filterSet": {
+     "items": [
+      {
+       "name": "default",
+       "valueSet": {
+        "items": [
+         {
+          "value": "true"
+         }
+        ]
+       }
+      },
+      {
+       "name": "vpc-id",
+       "valueSet": {
+        "items": [
+         {
+          "value": "vpc-05508d763843c8960"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "responseElements": null,
+   "requestID": "da71703a-29ea-4932-8c0f-82339b49475b",
+   "eventID": "2c84c941-a4bf-4a08-ac50-8ea6c3772fc6",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "securityGroupSet": {},
+    "securityGroupIdSet": {},
+    "filterSet": {
+     "items": [
+      {
+       "name": "group-name",
+       "valueSet": {
+        "items": [
+         {
+          "value": "default"
+         }
+        ]
+       }
+      },
+      {
+       "name": "vpc-id",
+       "valueSet": {
+        "items": [
+         {
+          "value": "vpc-05508d763843c8960"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "responseElements": null,
+   "requestID": "b9a3ab4b-0b8d-43be-8271-86dfa4781699",
+   "eventID": "2cc88446-70a4-4992-9f74-bc4c32a001eb",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcs",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "vpcSet": {
+     "items": [
+      {
+       "vpcId": "vpc-05508d763843c8960"
+      }
+     ]
+    },
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "60c81330-d8fd-41bd-98ce-d1412a849f9e",
+   "eventID": "341d279e-43cb-4f47-ba35-4fb11b7c03d5",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcClassicLinkDnsSupport",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "errorCode": "Client.UnsupportedOperation",
+   "errorMessage": "The functionality you requested is not available in this region.",
+   "requestParameters": {
+    "DescribeVpcClassicLinkDnsSupportRequest": {
+     "VpcIds": {
+      "tag": 1,
+      "content": "vpc-05508d763843c8960"
+     }
+    }
+   },
+   "responseElements": null,
+   "requestID": "3c3a9ce4-5123-46ca-972e-b36d86c6866d",
+   "eventID": "6ded8868-8117-46b1-b3fa-6175e0aeb288",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcAttribute",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "vpcId": "vpc-05508d763843c8960"
+   },
+   "responseElements": null,
+   "requestID": "780b52ff-8082-4f1d-b19a-98746b5472f1",
+   "eventID": "748559bc-46a7-4843-96a8-6d426f0bc170",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcAttribute",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "vpcId": "vpc-05508d763843c8960"
+   },
+   "responseElements": null,
+   "requestID": "f716841a-e293-4cd8-aa21-c9b7c8c471a5",
+   "eventID": "7c998005-c00c-4772-aec0-7e9222b41f09",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateRole",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "path": "/",
+    "roleName": "stratus-red-team-remove-flow-logs-role",
+    "assumeRolePolicyDocument": "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Sid\": \"\",\n      \"Effect\": \"Allow\",\n      \"Principal\": {\n        \"Service\": \"vpc-flow-logs.amazonaws.com\"\n      },\n      \"Action\": \"sts:AssumeRole\"\n    }\n  ]\n}\n",
+    "maxSessionDuration": 3600,
+    "tags": [
+     {
+      "key": "StratusRedTeam",
+      "value": "true"
+     }
+    ]
+   },
+   "responseElements": {
+    "role": {
+     "path": "/",
+     "roleName": "stratus-red-team-remove-flow-logs-role",
+     "roleId": "AROA52CDAKM4X3WLFHTD5",
+     "arn": "arn:aws:iam::949328302905:role/stratus-red-team-remove-flow-logs-role",
+     "createDate": "2026-08-28T05:45:17Z",
+     "assumeRolePolicyDocument": "%7B%0A%20%20%22Version%22%3A%20%222012-10-17%22%2C%0A%20%20%22Statement%22%3A%20%5B%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22Sid%22%3A%20%22%22%2C%0A%20%20%20%20%20%20%22Effect%22%3A%20%22Allow%22%2C%0A%20%20%20%20%20%20%22Principal%22%3A%20%7B%0A%20%20%20%20%20%20%20%20%22Service%22%3A%20%22vpc-flow-logs.amazonaws.com%22%0A%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%22Action%22%3A%20%22sts%3AAssumeRole%22%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D%0A",
+     "tags": [
+      {
+       "key": "StratusRedTeam",
+       "value": "true"
+      }
+     ]
+    }
+   },
+   "requestID": "c043461d-30cf-4f08-beec-5e599c01ff2a",
+   "eventID": "8be5cba3-f22d-4902-80d7-c40ca1465ec2",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcs",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "vpcSet": {
+     "items": [
+      {
+       "vpcId": "vpc-05508d763843c8960"
+      }
+     ]
+    },
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "e77dbf18-1264-460c-9d25-03b63837a0ca",
+   "eventID": "90d86ee8-2611-441e-ba6b-c3aebb686296",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcClassicLink",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "errorCode": "Client.UnsupportedOperation",
+   "errorMessage": "The functionality you requested is not available in this region.",
+   "requestParameters": {
+    "vpcSet": {
+     "item": [
+      {
+       "vpcId": "vpc-05508d763843c8960"
+      }
+     ]
+    },
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "1e009e17-4eda-409e-bcc9-90c9d42763bb",
+   "eventID": "e614f44d-423b-471a-af42-6350b725f91b",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "CreateVpc",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "cidrBlock": "10.0.0.0/16",
+    "instanceTenancy": "default",
+    "amazonProvidedIpv6CidrBlock": false,
+    "tagSpecificationSet": {
+     "items": [
+      {
+       "resourceType": "vpc",
+       "tags": [
+        {
+         "key": "StratusRedTeam",
+         "value": "true"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   "responseElements": {
+    "requestId": "6e76e8de-2765-47f7-91be-05bebc069ad0",
+    "vpc": {
+     "vpcId": "vpc-05508d763843c8960",
+     "state": "pending",
+     "ownerId": "949328302905",
+     "cidrBlock": "10.0.0.0/16",
+     "cidrBlockAssociationSet": {
+      "items": [
+       {
+        "cidrBlock": "10.0.0.0/16",
+        "associationId": "vpc-cidr-assoc-0aec15fafa1511a9b",
+        "cidrBlockState": {
+         "state": "associated"
+        }
+       }
+      ]
+     },
+     "ipv6CidrBlockAssociationSet": {},
+     "dhcpOptionsId": "dopt-0f905227465ae76bd",
+     "instanceTenancy": "default",
+     "tagSet": {
+      "items": [
+       {
+        "key": "StratusRedTeam",
+        "value": "true"
+       }
+      ]
+     },
+     "isDefault": false
+    }
+   },
+   "requestID": "6e76e8de-2765-47f7-91be-05bebc069ad0",
+   "eventID": "efc20bf9-6b38-4552-8b69-1fc7128c1eef",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:17Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeRouteTables",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "routeTableIdSet": {},
+    "filterSet": {
+     "items": [
+      {
+       "name": "association.main",
+       "valueSet": {
+        "items": [
+         {
+          "value": "true"
+         }
+        ]
+       }
+      },
+      {
+       "name": "vpc-id",
+       "valueSet": {
+        "items": [
+         {
+          "value": "vpc-05508d763843c8960"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "responseElements": null,
+   "requestID": "2f302145-0301-4948-9711-8aef82c64073",
+   "eventID": "fd43b60b-cc3c-4888-b384-f71e0cbe9826",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:18Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetRole",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "db9c7091-3cb9-469e-8faa-97e6185f5326",
+   "eventID": "91773d96-45db-4e1a-b1a6-54288d986300",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:19Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListRolePolicies",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "e0b0d1e0-1415-4453-9d7c-5531e3a5bb97",
+   "eventID": "f5337b1c-3cf0-496e-ab71-1501849d6b98",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:20Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeFlowLogs",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "DescribeFlowLogsRequest": {
+     "FlowLogId": {
+      "tag": 1,
+      "content": "fl-09f074932f1e4f0d4"
+     }
+    }
+   },
+   "responseElements": null,
+   "requestID": "5e80a72f-9ed3-4602-80c3-9b28b61a821f",
+   "eventID": "9d9446b9-f278-402f-97ec-84f01e804480",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:20Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "CreateFlowLogs",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "CreateFlowLogsRequest": {
+     "ResourceId": {
+      "tag": 1,
+      "content": "vpc-05508d763843c8960"
+     },
+     "MaxAggregationInterval": 600,
+     "ResourceType": "VPC",
+     "LogDestination": "arn:aws:logs:ap-northeast-2:949328302905:log-group:/stratus-red-team/vpc-flow-logs",
+     "TagSpecification": {
+      "ResourceType": "vpc-flow-log",
+      "tag": 1,
+      "Tag": {
+       "Value": "true",
+       "tag": 1,
+       "Key": "StratusRedTeam"
+      }
+     },
+     "DeliverLogsPermissionArn": "arn:aws:iam::949328302905:role/stratus-red-team-remove-flow-logs-role",
+     "LogDestinationType": "cloud-watch-logs",
+     "TrafficType": "REJECT"
+    }
+   },
+   "responseElements": {
+    "CreateFlowLogsResponse": {
+     "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+     "requestId": "076735d1-a0cb-4cbc-9abb-f90194d2315c",
+     "clientToken": "SkJzU6Zn9gXpN7oxjTCPDPgGUKYZ//tjEzuOOJSEv40=",
+     "unsuccessful": "",
+     "flowLogIdSet": {
+      "item": "fl-09f074932f1e4f0d4"
+     }
+    }
+   },
+   "requestID": "076735d1-a0cb-4cbc-9abb-f90194d2315c",
+   "eventID": "d96ee978-47f6-4c50-8090-eb9a1604e66c",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:20Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListAttachedRolePolicies",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "94bd5cbb-5fd3-4e7f-8dd3-bebf421331d2",
+   "eventID": "ec6a2c6f-9261-4561-bd5e-ec0c6fb03a05",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:21Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "PutRolePolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role",
+    "policyName": "stratus-red-team-remove-flow-logs-policy",
+    "policyDocument": "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Action\": [\n        \"logs:CreateLogGroup\",\n        \"logs:CreateLogStream\",\n        \"logs:PutLogEvents\",\n        \"logs:DescribeLogGroups\",\n        \"logs:DescribeLogStreams\"\n      ],\n      \"Effect\": \"Allow\",\n      \"Resource\": \"*\"\n    }\n  ]\n}\n"
+   },
+   "responseElements": null,
+   "requestID": "a9d452c0-5dcd-487d-98df-a9cd3ae43166",
+   "eventID": "eecd851b-3b23-4941-82cc-09d6e22d4c5c",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:22Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetRolePolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_05e5896f-2e06-4015-b96a-bd5363c48ca9 HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role",
+    "policyName": "stratus-red-team-remove-flow-logs-policy"
+   },
+   "responseElements": null,
+   "requestID": "a77d0e84-6ed3-4912-918a-e324c0370569",
+   "eventID": "50d6ace9-6704-443d-915d-039c7d97cf33",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:34Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeAccountAttributes",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_5898cf19-5641-4878-a341-49289687068a",
+   "requestParameters": {
+    "accountAttributeNameSet": {},
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "a5a5c060-0219-4d49-a721-f581f3c381f0",
+   "eventID": "4a339e72-e65c-47d4-b203-d47e6fbdbd7e",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:35Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DeleteFlowLogs",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_c8376823-e93a-443e-b158-b955fac78034",
+   "requestParameters": {
+    "DeleteFlowLogsRequest": {
+     "FlowLogId": {
+      "tag": 1,
+      "content": "fl-09f074932f1e4f0d4"
+     }
+    }
+   },
+   "responseElements": {
+    "DeleteFlowLogsResponse": {
+     "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+     "requestId": "f66e2763-8395-4f7a-ba83-0a7b7841a1ca",
+     "unsuccessful": ""
+    }
+   },
+   "requestID": "f66e2763-8395-4f7a-ba83-0a7b7841a1ca",
+   "eventID": "993b3808-f5be-400c-89fe-955fdbf05e08",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "logs.amazonaws.com",
+   "eventName": "DescribeLogGroups",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "logGroupNamePrefix": "/stratus-red-team/vpc-flow-logs"
+   },
+   "responseElements": null,
+   "requestID": "73b42152-7972-4e7b-8996-304237d5fb91",
+   "eventID": "2420539a-f7a2-4824-84e5-d48fcc4fa37d",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::Logs::LogGroup",
+     "ARN": "arn:aws:logs:ap-northeast-2:949328302905:log-group:/stratus-red-team/vpc-flow-logs"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "apiVersion": "20140328",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "logs.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "logs.amazonaws.com",
+   "eventName": "ListTagsLogGroup",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "logGroupName": "/stratus-red-team/vpc-flow-logs"
+   },
+   "responseElements": null,
+   "requestID": "22298b2b-308e-4d6f-b1ee-81250113a006",
+   "eventID": "305d91ef-30f6-4e98-be36-e55290c99769",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "apiVersion": "20140328",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "logs.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeSecurityGroups",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "securityGroupSet": {},
+    "securityGroupIdSet": {},
+    "filterSet": {
+     "items": [
+      {
+       "name": "group-name",
+       "valueSet": {
+        "items": [
+         {
+          "value": "default"
+         }
+        ]
+       }
+      },
+      {
+       "name": "vpc-id",
+       "valueSet": {
+        "items": [
+         {
+          "value": "vpc-05508d763843c8960"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "responseElements": null,
+   "requestID": "e45e2d1e-28f4-4ef1-a7bd-3ad49ad3b74a",
+   "eventID": "3192cfb3-9fd1-4aa0-9042-729a043177d0",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetRole",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "4ab61d60-6c68-4406-8ccf-8842f45a012f",
+   "eventID": "3943ddc4-c8a9-4339-ad2b-fd078b8589dc",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeNetworkAcls",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "networkAclIdSet": {},
+    "filterSet": {
+     "items": [
+      {
+       "name": "default",
+       "valueSet": {
+        "items": [
+         {
+          "value": "true"
+         }
+        ]
+       }
+      },
+      {
+       "name": "vpc-id",
+       "valueSet": {
+        "items": [
+         {
+          "value": "vpc-05508d763843c8960"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "responseElements": null,
+   "requestID": "c8515e51-c3f4-4c20-93bc-1c0900e9eddd",
+   "eventID": "69cdf93e-0d89-471c-afc5-4a63fe2d7ada",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcs",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "vpcSet": {
+     "items": [
+      {
+       "vpcId": "vpc-05508d763843c8960"
+      }
+     ]
+    },
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "76561817-1550-431c-9d38-cea8c060c6cf",
+   "eventID": "a7838d7f-e721-4902-90ca-cb217923dd47",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcAttribute",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "vpcId": "vpc-05508d763843c8960"
+   },
+   "responseElements": null,
+   "requestID": "f181a54b-a28e-48d1-b7f9-7ded00e9cc84",
+   "eventID": "cfee6e32-1d85-428e-9799-3b71ad3a1c50",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeRouteTables",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "routeTableIdSet": {},
+    "filterSet": {
+     "items": [
+      {
+       "name": "association.main",
+       "valueSet": {
+        "items": [
+         {
+          "value": "true"
+         }
+        ]
+       }
+      },
+      {
+       "name": "vpc-id",
+       "valueSet": {
+        "items": [
+         {
+          "value": "vpc-05508d763843c8960"
+         }
+        ]
+       }
+      }
+     ]
+    }
+   },
+   "responseElements": null,
+   "requestID": "606dd05f-3877-4f54-8744-cb5e731558a9",
+   "eventID": "db25b31c-8178-4759-8e2e-7c49d13689d1",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "716d49e2-84a8-454f-9c51-d563e5725216",
+   "eventID": "dfc72068-d5c9-4d69-ab16-2de46e25f4ca",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcClassicLinkDnsSupport",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "errorCode": "Client.UnsupportedOperation",
+   "errorMessage": "The functionality you requested is not available in this region.",
+   "requestParameters": {
+    "DescribeVpcClassicLinkDnsSupportRequest": {
+     "VpcIds": {
+      "tag": 1,
+      "content": "vpc-05508d763843c8960"
+     }
+    }
+   },
+   "responseElements": null,
+   "requestID": "2bbdaf2d-a5a5-4b8b-a946-3065a73dda8f",
+   "eventID": "f0b61c6a-1970-4078-a57e-cb4f618ddcfe",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcAttribute",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "vpcId": "vpc-05508d763843c8960"
+   },
+   "responseElements": null,
+   "requestID": "a4aaffda-62fa-48ea-ae53-0be6b3dbca94",
+   "eventID": "f2a95506-5ec1-4b09-8e41-e1034532f6f9",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:46Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeVpcClassicLink",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "errorCode": "Client.UnsupportedOperation",
+   "errorMessage": "The functionality you requested is not available in this region.",
+   "requestParameters": {
+    "vpcSet": {
+     "item": [
+      {
+       "vpcId": "vpc-05508d763843c8960"
+      }
+     ]
+    },
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "1e35ac29-6cb7-4feb-9ba4-c63196f9f733",
+   "eventID": "f40395dc-25f2-415f-9ea4-94bca84528c8",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:48Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListRolePolicies",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "a48073c4-4f33-40ca-8a4d-392473f122fc",
+   "eventID": "33a6b50f-83d1-4552-beb4-87e0299282a0",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:49Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetRolePolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role",
+    "policyName": "stratus-red-team-remove-flow-logs-policy"
+   },
+   "responseElements": null,
+   "requestID": "0457b0ce-e519-4872-9c97-ed69139393fd",
+   "eventID": "63f1b2fb-b2fb-4583-98b4-27e9cfda9ba1",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:50Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeFlowLogs",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "DescribeFlowLogsRequest": {
+     "FlowLogId": {
+      "tag": 1,
+      "content": "fl-09f074932f1e4f0d4"
+     }
+    }
+   },
+   "responseElements": null,
+   "requestID": "2873f12a-ae50-4f73-a3e1-43f8697f313c",
+   "eventID": "2f507138-848f-4eec-9d5b-ec68244c7766",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:50Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetRolePolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role",
+    "policyName": "stratus-red-team-remove-flow-logs-policy"
+   },
+   "responseElements": null,
+   "requestID": "0bd450a8-1bc1-4935-b40d-3ebda15c3f9f",
+   "eventID": "49d33b4a-a919-443b-9107-4f14bce85bfa",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:50Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListAttachedRolePolicies",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "31b78c91-9029-4a3d-9acd-31a9ff592c5b",
+   "eventID": "77848d64-9844-4bcd-bbc1-12a30e1d66bf",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:52Z",
+   "eventSource": "logs.amazonaws.com",
+   "eventName": "DeleteLogGroup",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "logGroupName": "/stratus-red-team/vpc-flow-logs"
+   },
+   "responseElements": null,
+   "requestID": "515d917f-0c9a-4186-9576-e9bfa34f0577",
+   "eventID": "1dfe981b-7649-4d69-9807-2454d9cef736",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "apiVersion": "20140328",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "logs.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:52Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "cda467e5-e236-40d4-92a8-5f9b4233cb62",
+   "eventID": "2d0f4bc6-3bec-4e64-90f8-4dade003cde6",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:52Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DeleteVpc",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "vpcId": "vpc-05508d763843c8960"
+   },
+   "responseElements": {
+    "requestId": "645d5163-fac6-4287-bf21-28cb9a1ee6dc",
+    "_return": true
+   },
+   "requestID": "645d5163-fac6-4287-bf21-28cb9a1ee6dc",
+   "eventID": "6dff209f-2979-45a1-b7cc-249b47bdcb63",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "accountId": "949328302905",
+    "invokedBy": "ec2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:45:52Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DeleteVpcResourceDeletion",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "ec2.amazonaws.com",
+   "userAgent": "ec2.amazonaws.com",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "b172d6ed-0852-32b5-a864-11d1e8cc3789",
+   "eventID": "d4269088-2522-4d7e-9150-6cad044edfca",
+   "readOnly": false,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::EC2::NetworkAcl",
+     "ARN": "arn:aws:ec2:ap-northeast-2:949328302905:network-acl/acl-0ba022f7f2e44e5a3"
+    },
+    {
+     "accountId": "949328302905",
+     "type": "AWS::EC2::RouteTable",
+     "ARN": "arn:aws:ec2:ap-northeast-2:949328302905:route-table/rtb-0f0a01fbfd031329a"
+    },
+    {
+     "accountId": "949328302905",
+     "type": "AWS::EC2::SecurityGroup",
+     "ARN": "arn:aws:ec2:ap-northeast-2:949328302905:security-group/sg-023d64b225ac5acea"
+    }
+   ],
+   "eventType": "AwsServiceEvent",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "serviceEventDetails": {
+    "vpcId": "vpc-05508d763843c8960"
+   },
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:53Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "DeleteRolePolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role",
+    "policyName": "stratus-red-team-remove-flow-logs-policy"
+   },
+   "responseElements": null,
+   "requestID": "15732f9f-7fe3-41b0-9610-0b76f966a972",
+   "eventID": "8bb3e450-1252-4acc-bfbc-96084ebe2d22",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:54Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListInstanceProfilesForRole",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "93bcd760-83cc-4e78-9089-4b6b5ded4ee9",
+   "eventID": "81fb93d8-52ca-4247-9ee7-04bf286ec838",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:55Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "ListRolePolicies",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "fd800af8-a19a-4e7b-8f21-f5ed95aa17cc",
+   "eventID": "4a0fcc18-1ecf-4421-932f-ced79f572978",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:45:56Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "DeleteRole",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "329375a3-4b6b-427e-912e-c89ec78353ee",
+   "eventID": "2138c25e-c2e5-4dbf-a61e-8152024c8aec",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM44R2ZIWN2",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:47:09Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "f5aab3a8-2952-4d64-becb-478dbe51b7df",
+   "eventID": "440e6545-3e4b-4e2c-85a1-711664c2fd26",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4Y77HFOMW",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:48:29Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:48:29Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetRole",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "errorCode": "NoSuchEntityException",
+   "errorMessage": "The role with name stratus-red-team-remove-flow-logs-role cannot be found.",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "1978c8e2-601a-49b7-a3ea-ee1c5005b361",
+   "eventID": "0387c71f-7741-4569-b38a-17095e6d8f92",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:48:29Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+    "roleSessionName": "resource-explorer-2"
+   },
+   "responseElements": {
+    "credentials": {
+     "accessKeyId": "ASIA52CDAKM4WBSO32UB",
+     "sessionToken": "IQoJb3JpZ2luX2VjEH4aDmFwLW5vcnRoZWFzdC0yIkcwRQIge3FF+ZM3DgvsusqrwJwi4eVtZl/KG6hNfj10lp0O21gCIQCpjqHYBCsRrI9Z0zEqJlIctq0hevuIHdzjThea1Q6H1CryAghHEAAaDDk0OTMyODMwMjkwNSIMw9PugoUB5OTOF2yTKs8CTDkh+6P7P3Mo5ENvvNcn6dV21hIyCh/r+436u98x9Nx/Kz1OrwJhZb6gBobgovpPUAyO/L8t0LphYf7ndVZSKbeED+oDKNpv8Lrlv7wOuFuHJggKm/85mJ82wPn7+HPXZHAh/S/8e90MEWoTsY05J6n5xShyvtHRce68BWh4cBnobo0StXp7lhh+NX7ZTbCVJjCzRTkF1uCT1QGSSjwBcvmxd9WN38BU0HbDWThlfcM2zuJ3UMy/eafvCfJLuyHXuvWdZj3pye1ahx3HPLobUlZQE6Mq3VDF6gmzKzOz4mAdfPqt2FHn0MNRLUdqh/BLmpSpDWsGfX+rpdbodBso6F7XV4RFGR/jimgmB10P9x7Jm5lwY+SrlHfzwIhFvIvhQo8IN23HvCc8XospcFOIRibGMHNIH9JRhZuTfPPki5ss3lsMQqUsw+TAaRjs/VMwrcLE1AY6vQEZPbUR75QJIHeOerrN8gJ33zcnRqTIevAqwK0m6u40uj2dc560v9wNqzmajf0OMTvbMNn0hiEFyvREjOXXGZhO5RiK/fo7pBZA15xsavgslwYYa5+KPG+feVn6CAS02+le/emeXxDh+k6jRf2iXClTTEZ3g+iCSv7uUW5iHql0tewC7ZCaegKkc033tH0WE3gAa4L67/uDWIAmNN90ERzV3eCRwNZnCy2qLn8RveV7st+D3d1CWw+hE9NqIHY=",
+     "expiration": "2026-08-28T06:48:29Z"
+    },
+    "assumedRoleUser": {
+     "assumedRoleId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+     "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+    }
+   },
+   "additionalEventData": {
+    "ExtendedRequestId": "MTphcC1ub3J0aGVhc3QtMjpTOjE3ODc4OTYxMDk1MTk6Ujo4cmkxNTBsSw=="
+   },
+   "requestID": "9980aa52-efd8-4658-a135-1c33598f643e",
+   "eventID": "44605cf2-0c7d-34a2-a8e4-e420c461155b",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::IAM::Role",
+     "ARN": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "09425698-43ee-4755-ac84-fa4d8f0afbbd",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM46S3MKRSM",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:48:29Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:48:29Z",
+   "eventSource": "cloudcontrolapi.amazonaws.com",
+   "eventName": "GetResource",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "errorCode": "ResourceNotFoundException",
+   "errorMessage": "AWS::IAM::Role Handler returned status FAILED: The role with name stratus-red-team-remove-flow-logs-role cannot be found. (Service: Iam, Status Code: 404, Request ID: 1978c8e2-601a-49b7-a3ea-ee1c5005b361) (SDK Attempt Count: 1) (HandlerErrorCode: NotFound, RequestToken: be1112ba-0cf7-417c-bca6-0dd21361c2f2)",
+   "requestParameters": {
+    "typeName": "AWS::IAM::Role",
+    "identifier": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "b715c797-9d6e-4ac5-a9e8-861ece126da7",
+   "eventID": "5c30342e-193a-404a-8daa-3aaf1450e15d",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4ZC3Y4NTE",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:48:29Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:48:29Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetRole",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "errorCode": "NoSuchEntityException",
+   "errorMessage": "The role with name stratus-red-team-remove-flow-logs-role cannot be found.",
+   "requestParameters": {
+    "roleName": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "02abf3ed-b696-400d-8559-d3feafe10de4",
+   "eventID": "5d3030c7-da3b-4369-a061-d07e213aa851",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:48:29Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+    "roleSessionName": "resource-explorer-2"
+   },
+   "responseElements": {
+    "credentials": {
+     "accessKeyId": "ASIA52CDAKM46S3MKRSM",
+     "sessionToken": "IQoJb3JpZ2luX2VjEH4aCXVzLWVhc3QtMSJHMEUCIGDC7C8FEiVtYh6/Pcy1zKujqH1dO5jNT25f7N1VvH+6AiEA9UZixfGIfTYWfNTdeY0v+F+EEfHwSU+PbElGmBqRRYYq8gIIRxAAGgw5NDkzMjgzMDI5MDUiDLO60BXOlz+TnkBfiirPAiifs78hMar+p8/dHn6mHgLlcss/zC2jLNSyAEGxEUExcfLfvIDc2AL/vpMf3svJHsRhwaHRgNBaRXnW4u3G/spsjkX7PpQ7C481eize/50N4fKzaO7vwBieP6YtkvUn7ib7hJMwtLLoGVzazUb8hLHWi06vWAfM05ny0/6P6GkHrPy5G3oGFUlChciDhW389xbmzjcJnhxAtuqYJT6Lgc4x9F7nuNcNoiUl7/Td/23/yOMgdRO17SXscpP0hURSb/nFaiMWhYp8+y+HD53IXCwqaZ0EWV4H2yxv2ERDUxxFrvhL42WuvCnjw4HzMTslSTb0VRY5hsgHx8zizY6C0/LTm8rQyZ+CEhV4CpkYe9ymUdKcnurs1gU943pu2TcX0ZJm/bEOhYiTqH4qKKvQPIdBqgOg7p41UwdTFKKg/7h7gJeXootmxvXC78gGYxRlMK3CxNQGOr0BPQZwhL0bqpl1JUqmzyWg5fWVP8ZG73zh4vSBzpVMv/mjs9HSamKJYw5Z5efbF1BREKJ7sMyvDBucWNi+QUg58wXBTbCsPE11AXI6v9AZXcNL3KdKAexsJ7TDjgUkWj1x4XG1C2gPJ5Gu8rpYNhcBizNEwiIH6IYAoS3mD/f5XEgtik2dJ+I6WRrhUQrYnmBaTmHuOwwDLYCtV9GVdYMhTLOkKUcp/F7ClXVGMPehsC/5eMUJtXD/SsWesIER",
+     "expiration": "2026-08-28T06:48:29Z"
+    },
+    "assumedRoleUser": {
+     "assumedRoleId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+     "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+    }
+   },
+   "additionalEventData": {
+    "ExtendedRequestId": "MTp1cy1lYXN0LTE6UzoxNzg3ODk2MTA5MjE0OlI6cjFOSTZHWHA="
+   },
+   "requestID": "3a9af739-1599-4aa5-a75d-4ffb6476b5a8",
+   "eventID": "66436ea6-4a73-3b02-ab57-92869e88244f",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::IAM::Role",
+     "ARN": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "89c43825-a8cb-4291-8062-298eee823214",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4TNIRD6CM",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:48:29Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:48:29Z",
+   "eventSource": "logs.amazonaws.com",
+   "eventName": "DescribeLogGroups",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "requestParameters": {
+    "logGroupNamePrefix": "/stratus-red-team/vpc-flow-logs"
+   },
+   "responseElements": null,
+   "requestID": "34c5b736-048d-4784-9ff6-fa77bd6f2d22",
+   "eventID": "812e7a5c-7026-4aea-be57-d9b693fc71b5",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "apiVersion": "20140328",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM46S3MKRSM",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:48:29Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:48:29Z",
+   "eventSource": "cloudcontrolapi.amazonaws.com",
+   "eventName": "GetResource",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "errorCode": "ResourceNotFoundException",
+   "errorMessage": "AWS::IAM::Role Handler returned status FAILED: The role with name stratus-red-team-remove-flow-logs-role cannot be found. (Service: Iam, Status Code: 404, Request ID: 02abf3ed-b696-400d-8559-d3feafe10de4) (SDK Attempt Count: 1) (HandlerErrorCode: NotFound, RequestToken: f85247d2-479c-478e-bb24-5f7db958c716)",
+   "requestParameters": {
+    "typeName": "AWS::IAM::Role",
+    "identifier": "stratus-red-team-remove-flow-logs-role"
+   },
+   "responseElements": null,
+   "requestID": "2f4086da-9f3e-450e-8966-0344c1dcc185",
+   "eventID": "a1cd8556-efa2-4727-936a-8557d77a7b76",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4WBSO32UB",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:48:29Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:48:29Z",
+   "eventSource": "cloudcontrolapi.amazonaws.com",
+   "eventName": "GetResource",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "errorCode": "ResourceNotFoundException",
+   "errorMessage": "AWS::Logs::LogGroup Handler returned status FAILED: Resource of type 'AWS::Logs::LogGroup' with identifier '{\"/properties/LogGroupName\":\"/stratus-red-team/vpc-flow-logs\"}' was not found. (HandlerErrorCode: NotFound, RequestToken: 06f03074-bbe4-47ae-98a7-016f82f3edd3)",
+   "requestParameters": {
+    "typeName": "AWS::Logs::LogGroup",
+    "identifier": "/stratus-red-team/vpc-flow-logs"
+   },
+   "responseElements": null,
+   "requestID": "863f633b-c348-41ea-9b9c-43add76b1067",
+   "eventID": "d2dc3191-a536-450b-8a2f-002f5ac713bd",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4QWGMMJDY",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:48:47Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "806f99ae-661a-4048-b53b-a4536facf568",
+   "eventID": "89d2b246-f205-452a-9065-345326c7b618",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  }
+ ]
+}

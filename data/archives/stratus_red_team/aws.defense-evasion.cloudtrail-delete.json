@@ -1,0 +1,2678 @@
+{
+ "Records": [
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM44R2ZIWN2",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:39:11Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "061914f4-ff84-4e27-b857-182fda4aa58e",
+   "eventID": "1fd4a518-d7a5-4dc5-acef-c7adc311e916",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:39:49Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeAccountAttributes",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_a45e0a2b-e3c1-4d02-a81b-a353d7476af2",
+   "requestParameters": {
+    "accountAttributeNameSet": {},
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "f85f29bf-996e-4888-bbd6-07cd913b05b8",
+   "eventID": "177ec508-9e9a-4d26-8606-a5edf19f4231",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:40:04Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895604690,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895604719,
+    "x-amz-id-2": "EW4X2bly28ucVModhAOmqfzIfSc1d8Nq21IdWqD8BsxdwnK9ROVACZSpfWjq3MGmSfMGU0GB3iZES70GUH45ie0PrZsNeRXB",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "MSJNXCE0Z1KTF7A9",
+   "eventID": "5e020e7f-669c-33ea-8b2b-2a9c0ab41c24",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "717d48f7-3b7a-44a2-bbb0-929ab7abe82b",
+   "vpcEndpointId": "cloudtrail.amazonaws.com",
+   "vpcEndpointAccountId": "cloudtrail.amazonaws.com",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:07Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "f50c2c38-7323-4b39-b310-cba5cc549579",
+   "eventID": "0034d24d-56c0-4775-b13c-7ab4f8cd4a47",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:09Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "30269aed-28e9-4b26-8380-5176a05cfd78",
+   "eventID": "ce37dd23-a409-42be-97d1-55b07fcc3d38",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:10Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketTagging",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "NoSuchTagSet",
+   "errorMessage": "The TagSet does not exist",
+   "requestParameters": {
+    "tagging": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895610154,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895610175,
+    "x-amz-id-2": "99dQVyFEpbJCTrhbFbrscfqApsNPlOOE5AKcxCR5qysuG9XnovZLepEfHXN2X2WeoFFJpW5LUw4=",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 326
+   },
+   "requestID": "7C215WMZH9Q4RTFJ",
+   "eventID": "93205ac9-092a-4a00-bd2a-721c0f923423",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:10Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "CreateBucket",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "CreateBucketConfiguration": {
+     "LocationConstraint": "ap-northeast-2",
+     "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/"
+    },
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "x-amz-acl": "private"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 158,
+    "startTime": 1787895609401,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895610021,
+    "x-amz-id-2": "anZbbFEjrHNWc5neXYSXG1rSmUAorc9zNP5iwGQcuEFnyBhq9nZN2nUJBgLMGcOCA0U9TpTJhoA=",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 0
+   },
+   "requestID": "F2QBASS6QJ1NX0RC",
+   "eventID": "9aba9c21-f496-4cb7-ab74-b0a04f22c641",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:10Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutBucketTagging",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "Tagging": {
+     "xmlns": "http://s3.amazonaws.com/doc/2006-03-01/",
+     "TagSet": {
+      "Tag": {
+       "Value": true,
+       "Key": "StratusRedTeam"
+      }
+     }
+    },
+    "tagging": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 139,
+    "startTime": 1787895610256,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895610955,
+    "x-amz-id-2": "pSWIqfuQQ/SZs+AnJhgT/rXF+21UVlWfYG3u/5YtkL8tOfn89Mes+k5MwvBP19THSB24hZ1k8Qu/e93V6eSvAaSGLUwZhr57",
+    "turnAroundTime": 698,
+    "httpStatusCode": 204,
+    "bytesTransferredOut": 0
+   },
+   "requestID": "7C2BF2VKMDSQKXCA",
+   "eventID": "b94a7edc-e2fe-41d0-9492-7077e7621da1",
+   "readOnly": false,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketCors",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "NoSuchCORSConfiguration",
+   "errorMessage": "The CORS configuration does not exist",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "cors": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895611767,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895611783,
+    "x-amz-id-2": "U7qREmXoHhjPEVHWdGM++d1W0EysCAitIVW3AWr7AflxCq7I7lwf+0lFOx54hqxitJ5JK+lbM+EfajGE69PZbZxqkQFsBHus",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 369
+   },
+   "requestID": "XXZCJM9S3ZPN8H3P",
+   "eventID": "33767021-8fd9-4fbe-be78-3f392ec94627",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "PutBucketPolicy",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketPolicy": {
+     "Version": "2012-10-17",
+     "Statement": [
+      {
+       "Action": "s3:GetBucketAcl",
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "cloudtrail.amazonaws.com"
+       },
+       "Resource": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+       "Sid": "AWSCloudTrailAclCheck"
+      },
+      {
+       "Action": "s3:PutObject",
+       "Condition": {
+        "StringEquals": {
+         "s3:x-amz-acl": "bucket-owner-full-control"
+        }
+       },
+       "Effect": "Allow",
+       "Principal": {
+        "Service": "cloudtrail.amazonaws.com"
+       },
+       "Resource": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb/*",
+       "Sid": "AWSCloudTrailWrite"
+      }
+     ]
+    },
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "policy": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 508,
+    "startTime": 1787895611026,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895611361,
+    "x-amz-id-2": "eDNAdL4OMlfUqCJ3OcAk6gBeJgZin2ff48zvLZl3ol+3uJuXUZmVXIPCnp4teMgz0nIIIAz8675TFVOZgApaGj6mX4UE8RpP",
+    "httpStatusCode": 204,
+    "bytesTransferredOut": 0
+   },
+   "requestID": "XXZ73EDS8G8NMWQK",
+   "eventID": "39f9b512-b0bb-4f88-8e9b-97fcc0c0eab7",
+   "readOnly": false,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketWebsite",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "NoSuchWebsiteConfiguration",
+   "errorMessage": "The specified bucket does not have a website configuration",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "website": "",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895611829,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895611854,
+    "x-amz-id-2": "5oILvLVXVJXEJ9VCy0qYS5KO1aFSaZqBSr1ab9orjik3+HoQbyOWmjtdAzKtVoQyaP2fjCIzI1M=",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 373
+   },
+   "requestID": "XXZEVY99YFQRJHRQ",
+   "eventID": "4574cc17-0544-4eb1-9123-6a613f5dea1f",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetAccelerateConfiguration",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "accelerate": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895611962,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895611982,
+    "x-amz-id-2": "DFrcnR2z9NRh93sKTKIk6ixWUuogw6JwQsEBoG60TS39Emxx4YGLWOhtyfNxhTFel4owgLAzYY0p1o3+UzYImWTBu3qNsjML",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 113
+   },
+   "requestID": "XXZB0405BC40TCVE",
+   "eventID": "7218c363-517b-4781-ba60-bf53c811445e",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketVersioning",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "versioning": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895611901,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895611918,
+    "x-amz-id-2": "DckEZF0518MLg5dGnDD6s0yX4u0v0aO+n00mjun/zQePabGkj2mF5I2gwp0asVUW3YMmMHtwsl4=",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 113
+   },
+   "requestID": "XXZ2Z4XJ375F24VV",
+   "eventID": "86e04fd1-2b13-4510-b472-5e2c71635753",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketPolicy",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "policy": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895611578,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895611599,
+    "x-amz-id-2": "CgPX0DCPlLsytDY/h9JwPvz41tGtxVyqAoSTPy8V5IKE6XCkgJWjrVCye2Lu3uoSN18TAWEbuVL8VhcARt/pVLTfqJqQVILd",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 508
+   },
+   "requestID": "XXZ33PG5JAB21YXZ",
+   "eventID": "8b382238-907f-494f-afed-94aad989aa9f",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:11Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895611697,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895611718,
+    "x-amz-id-2": "Fbkha3lRUp3tKqrEiMtQT1yWeKR/SnVepF+4/sqTOZE3gcfFvSk+bO3E1LJmaUxqFLJ0XfgtOA0wXek7/Y7w4rf3mMaLzWs3",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "XXZ1PJ78620JYSAG",
+   "eventID": "ccbc41b5-96cd-4a88-8b84-e167fb01bab9",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketLifecycle",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "NoSuchLifecycleConfiguration",
+   "errorMessage": "The lifecycle configuration does not exist",
+   "requestParameters": {
+    "lifecycle": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895612167,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895612209,
+    "x-amz-id-2": "3YcTiJ+PvblGXYSbM8aApg7/rkLLRW7PqIJYxkO1tApfAKly98Hz/DzbWP+vKZRq4U6ZD9lY66NwEeZj1rR2v+AY/D4tKB6B",
+    "turnAroundTime": 42,
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 340
+   },
+   "requestID": "QZK0HA418VBMTEWC",
+   "eventID": "0fe57974-c951-46e7-bfe8-80acacf5d704",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketLogging",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "logging": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895612099,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895612120,
+    "x-amz-id-2": "GLlQ/tp3P5uK8dJoye+E60aOUjgW4XVq6Ui0A2zrfcx+WcYJg6sEo1zto1twdVYBw2+FyEz9LERMeNWFC2B+y9bSi1//KJQ/",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 289
+   },
+   "requestID": "QZK5MCEWMRJH49GB",
+   "eventID": "190426b3-a858-4a49-93a8-66d508142618",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketTagging",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "tagging": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895612503,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895612530,
+    "x-amz-id-2": "/m/h/AuKA9KnuYPBEuPbbulRpT94UJSABlAAbD6p9plx4Dhod7nT8VRKjAbanMbPxwKdx0QWT1Hm5kYR2GXA4NeH1PWv0qXs",
+    "turnAroundTime": 25,
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 178
+   },
+   "requestID": "QZK06QSKM5E4Q53M",
+   "eventID": "56297e9e-1329-4a0a-bfa6-5d45e16a94b7",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketReplication",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "ReplicationConfigurationNotFoundError",
+   "errorMessage": "The replication configuration was not found",
+   "requestParameters": {
+    "replication": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895612260,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895612281,
+    "x-amz-id-2": "PKt2NIMEaj3DDZMsZsefkT1Cafobq502/73Y5v86WMgUbSwZr43WWMZZe8pwAwZOfVWhSsrDldiClwWW+e60QZxoADTVb4YP",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 389
+   },
+   "requestID": "QZK6EKREJX3CKJ16",
+   "eventID": "619063bb-6f7a-4e10-bb01-52201d85548e",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketEncryption",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "encryption": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895612324,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895612343,
+    "x-amz-id-2": "Le97g/+LeQ++o3vOU0ztZqWZpgGtXJ+q433len6qnXrvFjRYKI3JTnztvmetcYPCX0YYq9sg46kglvROMmBzFjiK7x8sL/fb",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 408
+   },
+   "requestID": "QZKC5GC8YPDCTHDF",
+   "eventID": "b4c266f0-f467-4197-9d97-d90b81cb8c22",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895612726,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895612732,
+    "x-amz-id-2": "Emn/Fgmy30ipVYoubl5QJ6eQ4lfJSjpzAKlpS0L2Mrg08iQCEwG1Cu0ieX7yudOe3tskxBHcccgU0R8GoGf9q0nez7xOv9Sf",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "QZK6D73NC79M0GWE",
+   "eventID": "d4580a0a-2d70-3ef8-b92e-24f6dc4c9e73",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "3e395597-948a-443f-bd3c-ac164a4a2bf2",
+   "vpcEndpointId": "cloudtrail.amazonaws.com",
+   "vpcEndpointAccountId": "cloudtrail.amazonaws.com",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketRequestPayment",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "requestPayment": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895612022,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895612042,
+    "x-amz-id-2": "gJcWIJBjmfMC562dgEDHsfTtUcV6zLEUVnAIPiLf/B1r2tlkaHCRbUt/qzfTuZhp9BX9ddV6WUPjCqQzGkYcrOH7p1ootpYp",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 172
+   },
+   "requestID": "QZK63HHEHPWVQEK5",
+   "eventID": "d9b2fe23-7d11-42b4-810f-e37af9767783",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketObjectLockConfiguration",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "ObjectLockConfigurationNotFoundError",
+   "errorMessage": "Object Lock configuration does not exist for this bucket",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "object-lock": "",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895612382,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895612399,
+    "x-amz-id-2": "XDY3ovJPdrwuekrbK0m1DQ2gAey3tAj5Mbd2U2WDHy+TrhUBfG4CrS78qlUGHF6Zv4A/epf1368=",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 381
+   },
+   "requestID": "QZK7NXC3R1FH5AFV",
+   "eventID": "da3e8f1c-8afe-4952-97f3-c14ed3839f90",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "StartLogging",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "name": "stratus-red-team-cloudtraild-trail-rvqavyspeb"
+   },
+   "responseElements": null,
+   "requestID": "26aa5a6f-9039-4ff7-aee7-06da4d3519f4",
+   "eventID": "e27c69b4-8368-4cfa-b79a-f4132728deb7",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "cloudtrail.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:12Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "CreateTrail",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "name": "stratus-red-team-cloudtraild-trail-rvqavyspeb",
+    "s3BucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "includeGlobalServiceEvents": true,
+    "tagsList": [
+     {
+      "key": "StratusRedTeam",
+      "value": "true"
+     }
+    ]
+   },
+   "responseElements": {
+    "name": "stratus-red-team-cloudtraild-trail-rvqavyspeb",
+    "s3BucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "includeGlobalServiceEvents": true,
+    "isMultiRegionTrail": false,
+    "trailARN": "arn:aws:cloudtrail:ap-northeast-2:949328302905:trail/stratus-red-team-cloudtraild-trail-rvqavyspeb",
+    "logFileValidationEnabled": false,
+    "isOrganizationTrail": false
+   },
+   "requestID": "c4084f1a-57fc-4013-82a1-ead6ca974902",
+   "eventID": "f4881a71-98f0-46a0-9b44-490079a57f1f",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "cloudtrail.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:13Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "GetTrailStatus",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "name": "stratus-red-team-cloudtraild-trail-rvqavyspeb"
+   },
+   "responseElements": null,
+   "requestID": "ce4b233f-8831-474b-900e-3bd388d5bed5",
+   "eventID": "5e028c2e-018b-4b84-a292-53818e77f61a",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "cloudtrail.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:13Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "GetEventSelectors",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "trailName": "stratus-red-team-cloudtraild-trail-rvqavyspeb"
+   },
+   "responseElements": null,
+   "requestID": "925b3519-e92b-486c-a86e-caca4c42a85a",
+   "eventID": "c0241350-691f-4b36-854e-53986dc9bd18",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "cloudtrail.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:13Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "ListTags",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "resourceIdList": [
+     "arn:aws:cloudtrail:ap-northeast-2:949328302905:trail/stratus-red-team-cloudtraild-trail-rvqavyspeb"
+    ]
+   },
+   "responseElements": null,
+   "requestID": "de9b4480-692c-4dd2-9422-b238db08ebd4",
+   "eventID": "dadf8957-fba2-4500-8cd5-79a0a6ae1754",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "cloudtrail.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:13Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "DescribeTrails",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) stratus-red-team_84ef734b-fb12-4cce-aa23-de0070b6fc7c HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "trailNameList": [
+     "stratus-red-team-cloudtraild-trail-rvqavyspeb"
+    ]
+   },
+   "responseElements": null,
+   "requestID": "c99cadb7-5c85-474c-8698-8bdf05031443",
+   "eventID": "e5e73b2c-f21f-4da2-b1a0-3c7bf7a75923",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "cloudtrail.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:28Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeAccountAttributes",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_ad9c30e4-e24c-42d7-9618-a1678c1727a8",
+   "requestParameters": {
+    "accountAttributeNameSet": {},
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "26a8b3be-af76-4c2b-8a39-82cec3a8f80e",
+   "eventID": "972a9459-3051-416b-adf7-7b0d6c0b2470",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:28Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "DeleteTrail",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_057911ed-6840-4cb9-b084-9e3c3d9a2e3b",
+   "requestParameters": {
+    "name": "stratus-red-team-cloudtraild-trail-rvqavyspeb"
+   },
+   "responseElements": null,
+   "requestID": "1f5639d6-9a72-4a7c-be86-e48d568d345d",
+   "eventID": "9da16c49-b5a5-4637-92ed-0c9c9de9f323",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "cloudtrail.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:41Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "4299bea8-8356-45bb-affb-a097d8e68615",
+   "eventID": "86e7a787-0f87-4d33-a1b5-67c91999bc59",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketLifecycle",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "NoSuchLifecycleConfiguration",
+   "errorMessage": "The lifecycle configuration does not exist",
+   "requestParameters": {
+    "lifecycle": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642637,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642677,
+    "x-amz-id-2": "0H5+USZgfxrM7bxNYp3n+RLyamtA/joUTzhUggB1hdnJtJwah1dyXp3/P3nNwTeAvkmNtM0c04x5+C8y/Xv2jarM5XJtmZoC",
+    "turnAroundTime": 39,
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 340
+   },
+   "requestID": "N7T96BRMZA5QJW15",
+   "eventID": "05857694-ccce-43cb-bf5a-6498dc7cd1fb",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketVersioning",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "versioning": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642388,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642406,
+    "x-amz-id-2": "cdRCQogzeSCX8ow3/fuzIzSJfEzw7P59ddYa6HAKHEP76jT4W8XTHgHy7NXyerOzpPBZGtXtkOKfT8rVYNIXlUf++4kz5uah",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 113
+   },
+   "requestID": "N7T8316R0YCRD64S",
+   "eventID": "08cb8b50-7388-40b8-9fbf-b65d684046b9",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketRequestPayment",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "requestPayment": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642512,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642531,
+    "x-amz-id-2": "8jXVXEtCG9AQ3ukRzgquQ0boB6Mlu3oPJCulAlwnp2xKDHdJI4slSye5qqF3yNABWOoJNpfpBmKdZh4lPkz1XjynTHK0bSAJ",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 172
+   },
+   "requestID": "N7T616JQ35FNYW6X",
+   "eventID": "0bd61fc9-c607-47e9-b95e-9cc32ee0434e",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketObjectLockConfiguration",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "ObjectLockConfigurationNotFoundError",
+   "errorMessage": "Object Lock configuration does not exist for this bucket",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "object-lock": "",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642828,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642843,
+    "x-amz-id-2": "2LBDZtWT0lBMnPPxWDbt+nsBG6YqpX3bmd4E2ohwK1vROLCkqmVM1itHMH+GSW1wZFtQF01Vr07uNxHT1qOimDr7w8Gpwv7q",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 401
+   },
+   "requestID": "N7T104WNMKJ4CATB",
+   "eventID": "0f4e3e97-c928-4eed-a1a0-99dd21a9941c",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketEncryption",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "encryption": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642770,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642791,
+    "x-amz-id-2": "gY+9tudN4MCOxn1xRSgGYD8rYYtNlTNcKiG507mwJUCpUJmQN5wJTO00OnQxQa4A3Ybbs2Fj7UTQj9Grdf3VI8g6atewJP30",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 408
+   },
+   "requestID": "N7T7TQ2XE4B3C652",
+   "eventID": "3b14db68-ded4-4327-8a76-4b613edf3633",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetAccelerateConfiguration",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "accelerate": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642455,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642473,
+    "x-amz-id-2": "eQSKSDYlI9dbPTqTpEoFCtfU8YZudlmkrcSljuL4EMO5Xp56PlzXCxLmXHSp/D5VFU7YlD/3lGOlQcM9cmgv16foxUF1NucN",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 113
+   },
+   "requestID": "N7TBVN65X7M1Y2Y8",
+   "eventID": "7b68a74f-209c-4fea-8a52-0a02d8e5ebc4",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketCors",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "NoSuchCORSConfiguration",
+   "errorMessage": "The CORS configuration does not exist",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "cors": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642247,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642264,
+    "x-amz-id-2": "nkxwehKpuesmWKBB6MTjeWrGimpcIV7bDGcufTyr349A0dDaVGI53MYlTsTIHOx6IECzhBiCRqdCm21MSEn1WKcRPVbprSLA",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 369
+   },
+   "requestID": "N7T7DF998NJ8TPG8",
+   "eventID": "8b7193d1-85a1-4e8d-bb8a-e7f2b1ce97d1",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642182,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642200,
+    "x-amz-id-2": "V5ZQytgum1pLZaf88wSMZTpXfxiF+kKDvQAn+oPNftQGZB/vmJrnhkcax+mTrsr1H09bBByygpWIRj+qEbzxCGzP7VqjE6gf",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "N7T4Z96AJSKA7K31",
+   "eventID": "8d65eb99-5eef-4afc-9df8-c9a883fa392e",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketPolicy",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com",
+    "policy": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642113,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642138,
+    "x-amz-id-2": "pnKVkrnjnj8Lquu6ERCcDnwyoH93u3PvUo2t/3ZZ57W/Ze+KBpus+HIHGXM+qfwgLfNDbdxKd4Zzk91ZWeUi6e0yA4lV5nc3",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 508
+   },
+   "requestID": "N7T3VM3DH4EKP1C9",
+   "eventID": "dbda147d-ad72-4ff6-992c-bcf809a42a0f",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketTagging",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "tagging": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642934,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642963,
+    "x-amz-id-2": "U2XJEUVui9YhaBIYdXPOL2penquhfrbius04V35sCDQ8X4ahwrA2n+tiTf1kvHBFRJcUABYdz8vlSOxNl2VjOqMoRJUtKxmB",
+    "turnAroundTime": 27,
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 178
+   },
+   "requestID": "N7TBCSWWY1YRNV45",
+   "eventID": "ecf3d582-6535-4a85-92c4-9ec638cc254f",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketReplication",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "ReplicationConfigurationNotFoundError",
+   "errorMessage": "The replication configuration was not found",
+   "requestParameters": {
+    "replication": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642716,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642732,
+    "x-amz-id-2": "O2lbTVIHas1vxyDqwImtJbikutC5XakX013pZwmOR6FRAYYnLhlNgPhao7cGVF6bfOOSEfxMgJHuTcdYme6jXzER2hQWSpzD",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 389
+   },
+   "requestID": "N7T8FVCZG97CP184",
+   "eventID": "eee891c5-f4f8-4bb5-a4cf-c0b29437f0b3",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketWebsite",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "NoSuchWebsiteConfiguration",
+   "errorMessage": "The specified bucket does not have a website configuration",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "website": "",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642307,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642333,
+    "x-amz-id-2": "2VOa+ap38Q5JV97TjxpAjDuR4tKLLwD+JyCN9DRewGJFa84VS9UmLB1RV87LFQbUz5ce/Z+BoTI7FfNuDIg23EnG/gD//bZQ",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 393
+   },
+   "requestID": "N7T73C5M5HACMPFQ",
+   "eventID": "f4a171b2-6a88-4681-88ba-827920248a6b",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:42Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketLogging",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "logging": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895642571,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895642593,
+    "x-amz-id-2": "8/R8upPMtIHqKg2YWnilvxpsBEZIkpfOma19Sp2XBu2pTDoOCTX4Ss/J31Gmw/bGxOWmFZNlN1lJs810iIQxN3fBZ6brCuTb",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 289
+   },
+   "requestID": "N7T2NP6M476XSJ60",
+   "eventID": "fb9a4eda-916c-4790-8c53-402001175dfc",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:43Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "DescribeTrails",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": {
+    "trailNameList": [
+     "stratus-red-team-cloudtraild-trail-rvqavyspeb"
+    ]
+   },
+   "responseElements": null,
+   "requestID": "6b23ef63-f2fe-4264-b531-ded83697959c",
+   "eventID": "2d828b27-6c98-4e83-97e2-f408a034c87a",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "cloudtrail.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:44Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "GetUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+   "requestParameters": null,
+   "responseElements": null,
+   "requestID": "e90861cf-023a-4328-ba63-5f1375894771",
+   "eventID": "b5786eaf-b8cb-4949-af97-6e252a0b4fdf",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:44Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "DeleteBucket",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "errorCode": "BucketNotEmpty",
+   "errorMessage": "The bucket you tried to delete is not empty",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895644686,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895644734,
+    "x-amz-id-2": "h9EeDwxECW/DEpmN3iQ68B2UrWqckS1q+5fGD28zv9bYYpM2RlauJldaiqzIgR0cBEYL9Air4hVIRjZ5WSt8n4FlgIsYf3eQ",
+    "httpStatusCode": 409,
+    "bytesTransferredOut": 366
+   },
+   "requestID": "E21RD5TYWG638H4H",
+   "eventID": "e4591a37-0af9-42f7-a241-ab9cf8729cfc",
+   "readOnly": false,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-28T05:40:45Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "DeleteBucket",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "[APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3]",
+   "requestParameters": {
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895645047,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895645495,
+    "x-amz-id-2": "+qFbzR12WfZ2Ij0kBO0woUUUY+qOGTYSMTHzGMTA4pqKJp3PpnQW0Ut2Hh45zzX6829m42ldRxPqSs06A58HWIbHiVbiOZuH",
+    "httpStatusCode": 204,
+    "bytesTransferredOut": 0
+   },
+   "requestID": "KZSA247F82TN583R",
+   "eventID": "547b9e0b-6289-41de-8898-ddf522c35745",
+   "readOnly": false,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::stratus-red-team-cloudtraild-bucket-rvqavyspeb"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4QWGMMJDY",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:40:46Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "37bf4f56-ea2d-4ba7-be27-9fdb13aba219",
+   "eventID": "6a43d61c-829c-45cd-8448-fbd3c35dd19a",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "cloudtrail.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:41:43Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketAcl",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "cloudtrail.amazonaws.com",
+   "userAgent": "cloudtrail.amazonaws.com",
+   "requestParameters": {
+    "bucketName": "aws-cloudtrail-logs-949328302905-9087da70",
+    "Host": "aws-cloudtrail-logs-949328302905-9087da70.s3.ap-northeast-2.amazonaws.com",
+    "acl": ""
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895703004,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895703026,
+    "x-amz-id-2": "DzZg/DMAFZUroQpWn7ZUkxJL3Qt5r+gBD5cKJbG44EbJNf1eWgCTKRChPC1oe6e4Jrw/v84nYxs=",
+    "httpStatusCode": 200,
+    "bytesTransferredOut": 480
+   },
+   "requestID": "EFEJ00X2FT365QDV",
+   "eventID": "0ac019da-585f-3052-bb96-1884b8ab7329",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::S3::Bucket",
+     "ARN": "arn:aws:s3:::aws-cloudtrail-logs-949328302905-9087da70"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "5a8f0a12-3c6d-4bed-ad82-2babd53bf699",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4YPTGSZOQ",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:41:44Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:41:44Z",
+   "eventSource": "cloudtrail.amazonaws.com",
+   "eventName": "DescribeTrails",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "requestParameters": {
+    "trailNameList": [
+     "stratus-red-team-cloudtraild-trail-rvqavyspeb"
+    ],
+    "includeShadowTrails": false
+   },
+   "responseElements": null,
+   "requestID": "5b06857e-170c-4535-a96a-1bd02849d29d",
+   "eventID": "2fdd9e61-5594-44c7-a5ae-1b6013f28318",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:41:44Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+    "roleSessionName": "resource-explorer-2"
+   },
+   "responseElements": {
+    "credentials": {
+     "accessKeyId": "ASIA52CDAKM4YPTGSZOQ",
+     "sessionToken": "IQoJb3JpZ2luX2VjEH4aDmFwLW5vcnRoZWFzdC0yIkcwRQIgUA+dWMsGmDVWYrqnzctNcFmYAyO5xxO8czZi0Vp29IMCIQDW0G6jomErke4KXO5fzRJt1vHhYzV0/i2CDP9aIO9Z6iryAghHEAAaDDk0OTMyODMwMjkwNSIMQFJKUeg7qr7QFczJKs8Cs62Bt/mu/qXPT/b3HBjGL/jVdxCaSLsZ2rAqbXLn90W9IT16NOYF8iuhSj7viJ/Tw0BTvk/y2oTAXkRWB+Metu7XCUkZ/XqI1MRxKQ1r0kKWzsl76ghPg2HE54Gm9pjULRgBSt1SlZnblvLQ79iOH8BrBXJBfd5L+OWj84qOiGunZGTL0TVXxUOwMLYhik4ybfdIc371yBLe1D/jeY7yEXBWVyvl5WiEL+uPHq8q7rZXf8S0DKQ9JGPdIdOizgH9FaJ05QxnLatkSMUqx7DQA+XJdKWQ9iVk86XTvsPdV9IhlT0WOXT8JMe0vOAZjJV7HtHnqoK0ixjuKO0HEYpxsrDpJtS1teyM3mc0P7MADnTYAamSCFle+WOJpFMLRGILvOIpCN0KE+65P6saHBkZbOcZ1nR2nD8JL5UuaSej8yNvBpRaCRZaqK19i1eVMQwwmL/E1AY6vQFf2qHshCEQG7yJYnebiilqKvsnXZsUrr0erUvDf2SUbJrTBntHlTuenFePRMiw2cOK+OnOr1FtSngcApPRq2VJ7FZ3hSrH96D/Eli4bxgd9RMmxU/vLetlAiss05SJRjwpMiYmCyrLrAmGoycZ4RCltggs3yEp0HoAdPnyPav0LDUeMD8h6nsT1jfLewHCRCCf2wwuEUjIeQFe7wu7LgHXCMzRXrVy4xjO3HW+e1HP9HFXjlaQSCmqhiRfn6M=",
+     "expiration": "2026-08-28T06:41:44Z"
+    },
+    "assumedRoleUser": {
+     "assumedRoleId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+     "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+    }
+   },
+   "additionalEventData": {
+    "ExtendedRequestId": "MTphcC1ub3J0aGVhc3QtMjpTOjE3ODc4OTU3MDQxMDQ6UjpWeVRoU0dReg=="
+   },
+   "requestID": "92cc50e5-c657-4884-8df9-4dccb5538758",
+   "eventID": "7b78d73f-e513-3817-b767-a25d291b844a",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::IAM::Role",
+     "ARN": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "e85cc9d6-e5a8-4b3c-92e0-bee6f3dceb9b",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+    "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM45EM5OXPC",
+    "sessionContext": {
+     "sessionIssuer": {
+      "type": "Role",
+      "principalId": "AROA52CDAKM4R6VBG7YSI",
+      "arn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+      "accountId": "949328302905",
+      "userName": "AWSServiceRoleForResourceExplorer"
+     },
+     "attributes": {
+      "creationDate": "2026-08-28T05:41:53Z",
+      "mfaAuthenticated": "false"
+     }
+    },
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:41:53Z",
+   "eventSource": "s3.amazonaws.com",
+   "eventName": "GetBucketLogging",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "errorCode": "NoSuchBucket",
+   "errorMessage": "The specified bucket does not exist",
+   "requestParameters": {
+    "logging": "",
+    "bucketName": "stratus-red-team-cloudtraild-bucket-rvqavyspeb",
+    "Host": "stratus-red-team-cloudtraild-bucket-rvqavyspeb.s3.ap-northeast-2.amazonaws.com"
+   },
+   "responseElements": null,
+   "additionalEventData": {
+    "SignatureVersion": "SigV4",
+    "CipherSuite": "TLS_AES_128_GCM_SHA256",
+    "bytesTransferredIn": 0,
+    "startTime": 1787895713913,
+    "AuthenticationMethod": "AuthHeader",
+    "endTime": 1787895713923,
+    "x-amz-id-2": "/452LDIRGlR+GdUXMHtvB5gHkGCordMjHX41vW+kS9otgq4Em6dxLf1VrG07eMTHAGlaz254BOc=",
+    "httpStatusCode": 404,
+    "bytesTransferredOut": 336
+   },
+   "requestID": "9GQE7BYKXC7JNYF2",
+   "eventID": "8d529d57-29b7-47d0-a6d2-4ed39df4a285",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "AWSService",
+    "invokedBy": "resource-explorer-2.amazonaws.com"
+   },
+   "eventTime": "2026-08-28T05:41:53Z",
+   "eventSource": "sts.amazonaws.com",
+   "eventName": "AssumeRole",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "resource-explorer-2.amazonaws.com",
+   "userAgent": "resource-explorer-2.amazonaws.com",
+   "requestParameters": {
+    "roleArn": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer",
+    "roleSessionName": "resource-explorer-2"
+   },
+   "responseElements": {
+    "credentials": {
+     "accessKeyId": "ASIA52CDAKM45EM5OXPC",
+     "sessionToken": "IQoJb3JpZ2luX2VjEH4aDmFwLW5vcnRoZWFzdC0yIkYwRAIgJYMMOeNG41TAL5fQZjc0paJSb+CSEuJIX+uZ4SV877oCIBVlKJk0638GxECUr7Z84KPETLsVCLZTn5ewj5yGRz2vKvICCEcQABoMOTQ5MzI4MzAyOTA1Igx6AVE/WPPe7w6BiTwqzwJ8j5UKV2z+FBjp83txhAsNa5EZSXmDUi9f4O87QEfDI3CS8VLhlKZddwdUj9SzYVlguXyEnX7h3JJzcoIl06ZKcGL7b9AeUVsWg7reJpnmtBitD+6qgij0tIVKmZdoV2HA3DPGrmfZlQ2MrjVVx39QikHJk1oHdeq7Qls9nMaefkxAxgAWMozRDo/WZLzmG8s6bEZtruSIJsikBDaOtY5Dd3lQ51dLVIKSy+RDsD21svY0k6KTr9YL4cCZ3r4wzBx1lJDO6pU1BSg98lFVXHY4cTA24LhTSooCQtW/RKurQgtDvwDYpqR+UgO4Z+Upb2REHpnGXl3F8w+UCrfGqnCYtnGeU2EC1RTLyu4v32aNvDWhAm3ZYU0J+RN9HaBwvA51lFcPqEWpctuXw34ufN4GdPUSVFIk4CBr+T781FCgTycbV5q3K4dB6/eIcJkrYjChv8TUBjq+AYrt8kkPcyWWYrp8DrsAk46Qe0qC8ny2KL9MvuGNpppxuZN9MYxxj/OVwGnZBxL7rtPOdLbwVrH8Rv7AV2O9VB/hYVd7gEOy7mFUVpQ2CkvAfQY/nSxI1XQmYu3b5+riaOte5k7oMq4rQWp9qN8EVFMH2l2qxo9uTe1CQhfm8rPvc1HAdCctYt9QuZBPvY2TiV3+1vWFiv7sqx24GUjwaXN6qczL4Y5pEwXgrG8Q0Uq7escHcvuf4oC6KFdiB5U=",
+     "expiration": "2026-08-28T06:41:53Z"
+    },
+    "assumedRoleUser": {
+     "assumedRoleId": "AROA52CDAKM4R6VBG7YSI:resource-explorer-2",
+     "arn": "arn:aws:sts::949328302905:assumed-role/AWSServiceRoleForResourceExplorer/resource-explorer-2"
+    }
+   },
+   "additionalEventData": {
+    "ExtendedRequestId": "MTphcC1ub3J0aGVhc3QtMjpTOjE3ODc4OTU3MTM4Nzc6UjppZHMyU1A2NQ=="
+   },
+   "requestID": "bd3e0dab-006c-4f3b-84fd-625ae0c48c20",
+   "eventID": "bcde35dc-f8a3-36db-ac52-2963766decb5",
+   "readOnly": true,
+   "resources": [
+    {
+     "accountId": "949328302905",
+     "type": "AWS::IAM::Role",
+     "ARN": "arn:aws:iam::949328302905:role/aws-service-role/resource-explorer-2.amazonaws.com/AWSServiceRoleForResourceExplorer"
+    }
+   ],
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "sharedEventID": "ff92b985-20a1-4974-93bd-7b39f5d82c53",
+   "eventCategory": "Management"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM44R2ZIWN2",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-28T05:24:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-28T05:43:11Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "1b2459fe-2183-4ffe-9c28-ea69af26956f",
+   "eventID": "dbad02af-1ce0-41ff-987c-7429ec422ee7",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  }
+ ]
+}
