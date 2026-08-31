@@ -1,0 +1,237 @@
+{
+ "Records": [
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-31T05:30:30Z",
+   "eventSource": "ec2.amazonaws.com",
+   "eventName": "DescribeAccountAttributes",
+   "awsRegion": "ap-northeast-2",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_a00142bf-bcd3-4d75-a8a0-6717580f2a7e",
+   "requestParameters": {
+    "accountAttributeNameSet": {},
+    "filterSet": {}
+   },
+   "responseElements": null,
+   "requestID": "3cf50f3c-fb51-4270-84af-acbd91c73a20",
+   "eventID": "e316f318-3cc8-43eb-bff0-db83b5b8dcfa",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "ec2.ap-northeast-2.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-31T05:30:32Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "AttachUserPolicy",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_e8d6a5d8-193f-419d-8576-b9c9f3825e21",
+   "requestParameters": {
+    "userName": "malicious-iam-user",
+    "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+   },
+   "responseElements": null,
+   "requestID": "9fa42317-1d98-4a58-93de-b69b9b7863fb",
+   "eventID": "70708bc7-a883-4772-a826-0bd8f05e8409",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-31T05:30:32Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateUser",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_e8d6a5d8-193f-419d-8576-b9c9f3825e21",
+   "requestParameters": {
+    "userName": "malicious-iam-user",
+    "tags": [
+     {
+      "key": "StratusRedTeam",
+      "value": "true"
+     }
+    ]
+   },
+   "responseElements": {
+    "user": {
+     "path": "/",
+     "userName": "malicious-iam-user",
+     "userId": "AIDA52CDAKM4ZR6ZKJU3B",
+     "arn": "arn:aws:iam::949328302905:user/malicious-iam-user",
+     "createDate": "2026-08-31T05:30:32Z",
+     "tags": [
+      {
+       "key": "StratusRedTeam",
+       "value": "true"
+      }
+     ]
+    }
+   },
+   "requestID": "d4453949-7fa9-4d4a-8920-5d21dc6f951f",
+   "eventID": "8b6e5e57-d7c3-4fbb-9d80-7866622e3749",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDA52CDAKM45EEQA72CD",
+    "arn": "arn:aws:iam::949328302905:user/Huge-log-attack-simulation",
+    "accountId": "949328302905",
+    "accessKeyId": "AKIA52CDAKM4W5UHPSX2",
+    "userName": "Huge-log-attack-simulation"
+   },
+   "eventTime": "2026-08-31T05:30:33Z",
+   "eventSource": "iam.amazonaws.com",
+   "eventName": "CreateAccessKey",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "stratus-red-team_e8d6a5d8-193f-419d-8576-b9c9f3825e21",
+   "requestParameters": {
+    "userName": "malicious-iam-user"
+   },
+   "responseElements": {
+    "accessKey": {
+     "userName": "malicious-iam-user",
+     "accessKeyId": "AKIA52CDAKM4Z2EQLDV5",
+     "status": "Active",
+     "createDate": "2026-08-31T05:30:33Z"
+    }
+   },
+   "requestID": "aae322fe-82ce-4cae-b8de-ed1c1bef93ae",
+   "eventID": "a7078ec4-cb6b-4dc4-82aa-804f2beaa37d",
+   "readOnly": false,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "iam.amazonaws.com"
+   }
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM4YEUU7RG7",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-31T04:19:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-31T05:30:43Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "21b7063b-3e03-477d-8a8b-f38a79488dd4",
+   "eventID": "8aa2b54d-bdca-4a1a-bfc2-93a840f6ff70",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  },
+  {
+   "eventVersion": "1.11",
+   "userIdentity": {
+    "type": "Root",
+    "principalId": "949328302905",
+    "arn": "arn:aws:iam::949328302905:root",
+    "accountId": "949328302905",
+    "accessKeyId": "ASIA52CDAKM42MYQAAHY",
+    "userName": "jjsworkspace",
+    "sessionContext": {
+     "attributes": {
+      "creationDate": "2026-08-31T04:19:57Z",
+      "mfaAuthenticated": "true"
+     }
+    }
+   },
+   "eventTime": "2026-08-31T05:33:08Z",
+   "eventSource": "notifications.amazonaws.com",
+   "eventName": "ListManagedNotificationEvents",
+   "awsRegion": "us-east-1",
+   "sourceIPAddress": "165.132.5.130",
+   "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+   "requestParameters": {
+    "maxResults": "100",
+    "locale": "ko_KR"
+   },
+   "responseElements": null,
+   "requestID": "8822a364-92ec-43a7-8fe3-091b338f277d",
+   "eventID": "597248e6-2fc7-4060-be67-fc7c4a151715",
+   "readOnly": true,
+   "eventType": "AwsApiCall",
+   "managementEvent": true,
+   "recipientAccountId": "949328302905",
+   "eventCategory": "Management",
+   "sessionCredentialFromConsole": "true"
+  }
+ ]
+}
