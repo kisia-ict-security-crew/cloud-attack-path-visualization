@@ -1,0 +1,81 @@
+node {
+  diameter: 50px;
+  color: #B0BEC5;
+  border-color: #90A4AE;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+  caption: '{display}';
+}
+relationship {
+  color: #B0BEC5;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #37474F;
+  text-color-internal: #FFFFFF;
+  caption: '<type>';
+}
+node.Credential {
+  color: #C2185B;
+  border-color: #7B0D3B;
+  border-width: 3px;
+  diameter: 85px;
+  text-color-internal: #FFFFFF;
+  font-size: 11px;
+  caption: '{display}';
+}
+node.Identity {
+  color: #6A1B9A;
+  border-color: #42116B;
+  border-width: 3px;
+  diameter: 75px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+  caption: '{display}';
+}
+node.Workload {
+  color: #00897B;
+  border-color: #00564D;
+  border-width: 3px;
+  diameter: 75px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+  caption: '{display}';
+}
+node.Asset {
+  color: #ECEFF1;
+  border-color: #B0BEC5;
+  border-width: 2px;
+  diameter: 42px;
+  text-color-internal: #546E7A;
+  font-size: 8px;
+  caption: '{display}';
+}
+relationship.CAN_OBTAIN {
+  color: #C2185B;
+  shaft-width: 6px;
+  font-size: 11px;
+  padding: 3px;
+  text-color-external: #880E4F;
+  text-color-internal: #FFFFFF;
+  caption: '<type>';
+}
+relationship.CONTEXT {
+  color: #6A1B9A;
+  shaft-width: 3px;
+  font-size: 9px;
+  padding: 3px;
+  text-color-external: #4A148C;
+  text-color-internal: #FFFFFF;
+  caption: '{rel}';
+}
+relationship.BASE_EVENT {
+  color: #CFD8DC;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #607D8B;
+  text-color-internal: #FFFFFF;
+  caption: '{eventName}';
+}
